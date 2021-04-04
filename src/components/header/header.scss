@@ -1,0 +1,46 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+.header {
+
+  background-color: aqua;
+
+  padding: 27px 0 10px;
+  text-align: center;
+
+  &__logo-container {
+    margin-bottom: 10px;
+  }
+
+  &__heading {
+    line-height: 90%;
+  }
+
+  &__subheading {
+    font-size: 2.3rem;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__page-links-container {
+    margin-bottom: 20px;
+  }
+
+  &__page-link {
+    @include font($mulish, 1.6rem, 400);
+    margin: 0 21px;
+    text-decoration: none;
+  }
+
+  &__contact-links-container {
+    opacity: 1; //=====================
+  }
+
+  &__contact-link-icon {
+    margin: 0 13px;
+    width: 33px;
+  }
+}

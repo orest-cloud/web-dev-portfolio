@@ -1,0 +1,54 @@
+@import 'typography';
+
+//------------------------------
+// Breakpoints
+//------------------------------
+$desktop-breakpoint: 1200px;
+$tablet-breakpoint: 768px;
+$mobile-breakpoint: 320px;
+
+//------------------------------
+// Fonts
+//------------------------------
+$amiko: 'Amiko', sans-serif;
+$mulish: 'Mulish', sans-serif;
+
+$heading-font: $amiko;
+$body-font: $mulish;
+
+//------------------------------
+// Sizing / Spacing
+//------------------------------
+// $desktop-margin: 100px;
+
+
+//------------------------------
+// Color palette
+//------------------------------
+// Palette colors
+$black: #04071C;
+$blue-1: #3C79E1;
+$blue-2: #83A8DE;
+$blue-3: #9ABDCE;
+$topaz: #7C778A;
+$grey-1: #B3B3B3;
+$grey-2: #CCCCCC;
+$grey-3: #F2F2F2;
+$parchment: #F1E9D2;
+
+// Text colour assignments
+$text-1: $black;
+$text-2: $blue-1;
+$text-grey: $grey-1;
+$text-links-color: $blue-1;
+$text-links-color-hover: $blue-2;
+// $placeholder-text-color: $grey-2;
+
+// Fills
+$border-color-1: $grey-1;
+$border-color-2: $grey-2;
+$bg-fill-1: $grey-3;
+$bg-fill-2: $parchment;
+$button-fill: $blue-1;
+$button-hover: $blue-2;
+$hr-fill: $grey-2;
