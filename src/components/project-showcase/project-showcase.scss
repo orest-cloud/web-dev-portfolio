@@ -1,0 +1,43 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+.project-showcase {
+
+  border-radius: $section-border-radius;
+  background-color: $white;
+  padding: $mobile-section-vertical-margin $mobile-margin;
+
+  &__heading {
+    padding-bottom: 8px;
+  }
+  
+  &__sub-heading {
+    padding-bottom: 8px;
+  }
+
+  &__image {
+    background-color: $grey-2;
+    background-image: url('../../assets/images/StompingGround_Details_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid $grey-2;
+    margin-bottom: 15px;
+    // padding to maintain aspect ratio for mobile:
+    // Image size w 768 by h 659
+    padding-top: 85.2%;
+    
+    @include tablet {
+      background-image: url('../../assets/images/StompingGround_Details.jpg');
+      max-width: 570px;
+      // Image size w 996 by h 580
+      padding-top: 47.5%;
+      width: 100%;
+    }
+  }
+   
+  &__paragraph {
+    padding-bottom: $paragraph-bottom-margin;
+  }
+
+}

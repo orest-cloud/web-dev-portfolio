@@ -1,0 +1,27 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+.skills {
+
+  
+
+  padding-bottom: $mobile-section-vertical-margin;
+
+  @include tablet {
+    background-color: $white;
+    width: 253px;
+  }
+
+  &__heading {
+    padding-bottom: 7px;
+  }
+
+  &__sub-heading {
+    padding-bottom: 7px;
+  }
+
+  &__group-container {
+    margin-bottom: 15px;
+  }
+}

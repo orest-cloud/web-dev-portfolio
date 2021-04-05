@@ -4,6 +4,8 @@ import React from 'react';
 // Components 
 import Header from '../../components/header/header';
 import CircleButton from '../../components/circle-button/circle-button';
+import Skills from '../../components/skills/skills';
+import ProjectShowcase from '../../components/project-showcase/project-showcase';
 
 // Images 
 import homeBioPortrait from '../../assets/images/orest_portrait_1.jpg';
@@ -40,9 +42,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="skills">
-        <h2 className="skills__heading">Skills</h2>
-        <h3 className="skills__sub-heading">Front-End</h3>
+      <section className="home-middle">
+        <Skills />
+        <ProjectShowcase />
       </section>
 
 

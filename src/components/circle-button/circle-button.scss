@@ -3,7 +3,7 @@
 @import '../../Styles/Variables';
 
 .circle-button {
-  @include flex(row nowrap, flex-start, center);
+  @include flex(row nowrap, flex-start, flex-start);
   
   &__link {
     text-decoration: none;
@@ -17,6 +17,9 @@
 
   &__text {
     @include font($mulish, 1.6rem, 700);
+
+    text-align: left;
+    margin-top: 7px;
     
   }
 

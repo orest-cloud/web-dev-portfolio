@@ -24,13 +24,12 @@
   }
 
   &__text {
-    
-    padding-bottom: 10px;
+    padding-bottom: $paragraph-bottom-margin;
   }
 
 }
 
-.skills {
+.home-middle {
   background-color: $bg-fill-1;
   padding: $mobile-section-vertical-margin $mobile-margin ;
 }
