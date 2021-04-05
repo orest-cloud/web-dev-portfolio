@@ -1,0 +1,23 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+.circle-button {
+  @include flex(row nowrap, flex-start, center);
+  
+  &__link {
+    text-decoration: none;
+  }
+  
+  &__image {
+    width: 35px;
+    height: 35px;
+    padding-right: 7px
+  }
+
+  &__text {
+    @include font($mulish, 1.6rem, 700);
+    
+  }
+
+}

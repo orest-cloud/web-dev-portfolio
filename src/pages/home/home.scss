@@ -2,3 +2,35 @@
 @import '../../Styles/Partials';
 @import '../../Styles/Variables';
 
+
+.home-bio {
+
+  padding: 14px $mobile-margin $mobile-section-vertical-margin;
+
+  &__portrait {
+    float: left;
+    max-width: 143px;
+    margin-right: 14px;
+
+    @include tablet {
+      max-width: 236px;
+    }
+  }
+
+  &__text-container {
+    @include tablet {
+      width: 742px;
+    }
+  }
+
+  &__text {
+    
+    padding-bottom: 10px;
+  }
+
+}
+
+.skills {
+  background-color: $bg-fill-1;
+  padding: $mobile-section-vertical-margin $mobile-margin ;
+}

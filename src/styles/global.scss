@@ -102,13 +102,25 @@ h1 {
     }    
 }
 
-h1, h2, h3, h4, hr, ul, li, img, p, label, input {
-    margin: 0;
-    padding: 0;
+
+
+Link {
+    color: $text-links-color;
+    // text-decoration: none;
 }
 
-a {
-    color: $text-links-color;
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+//------------------------------
+// Remove default styling
+//------------------------------
+h1, h2, h3, h4, hr, ul, li, img, p, label, input, button {
+    margin: 0;
+    padding: 0;
 }
 
 //------------------------------
