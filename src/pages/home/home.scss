@@ -4,8 +4,19 @@
 
 
 .home-bio {
-  @include flex(row nowrap, space-between, flex-start);
-  padding: 14px $mobile-margin $mobile-section-vertical-margin;
+  @include responsive-side-margins;
+  @include responsive-bottom-margin;
+  padding-top: 14px;
+  
+  @include tablet {
+    @include flex(row nowrap, flex-start, flex-start);
+  }
+
+  @include desktop {
+    @include flex(row nowrap, space-between, flex-start);
+    margin: 0 auto;
+    width: $desktop-container-width;
+  }
 
   &__portrait {
     float: left;
@@ -14,11 +25,17 @@
 
     @include tablet {
       float: unset;
+      margin-right: 55px;
       max-width: 236px;
+    }
+
+    @include desktop {
+      margin-right: 0;
     }
   }
 
   &__text-container {
+
     @include tablet {
       width: 742px;
     }
@@ -31,6 +48,29 @@
 }
 
 .home-middle {
+  // padding: $mobile-section-vertical-margin $mobile-margin 50px;
+  @include responsive-side-margins;
+  @include responsive-top-margin;
+  padding-bottom: 50px;
   background-color: $bg-fill-1;
-  padding: $mobile-section-vertical-margin $mobile-margin 50px;
+  
+  @include tablet {
+    // background-color: rgb(41, 59, 139);
+    // background-color: $white;
+    // background-image: linear-gradient(135deg, #9ABDCE, #83A8DE, #293B8B, #142666);
+    background-color: $bg-fill-1;
+  }
+  
+  
+  &__content-container {
+    
+    @include tablet {
+      @include flex(row nowrap, space-between, flex-start);
+    }
+    
+    @include desktop {
+      margin: 0 auto;
+      width: $desktop-container-width;
+    }
+  }
 }

@@ -22,9 +22,9 @@ export default function Header() {
       </div>
 
       <div className="header__contact-links-container">
-        <Link className="header__contact-link"><MailToIcon className="header__contact-link-icon"/></Link>
+        <Link className="header__contact-link" to="mailto:orest.szopiak@gmail.com"><MailToIcon className="header__contact-link-icon"/></Link>
         <Link className="header__contact-link"><GitIcon className="header__contact-link-icon"/></Link>
-        <Link className="header__contact-link"><LinkedinIcon className="header__contact-link-icon"/></Link>
+        <Link className="header__contact-link"><LinkedinIcon className="header__contact-link-icon header__contact-link-icon--last-item"/></Link>
       </div>
     </nav>
   )

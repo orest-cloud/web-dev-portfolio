@@ -3,14 +3,26 @@
 @import '../../Styles/Variables';
 
 .skills {
-
+  @include responsive-top-margin;
+  @include responsive-bottom-margin;
+  padding-left: 0;
+  padding-right: 0;
   
-
-  padding-bottom: $mobile-section-vertical-margin;
+  // padding-bottom: $mobile-section-vertical-margin;
 
   @include tablet {
+    border: 1px solid $grey-3;
+    box-shadow: 5px 5px 7px -5px rgba(0,0,0,0.18);
+    
     background-color: $white;
-    width: 253px;
+    border-radius: $section-border-radius;
+    padding-left: 18px;
+    padding-right: 18px;    
+    width: 230px;
+  }
+  
+  @include desktop {
+    width: 312px;
   }
 
   &__heading {

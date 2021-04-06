@@ -1,5 +1,8 @@
 @import 'variables';
 
+//------------------------------
+// Breakpoints
+//------------------------------
 @mixin tablet {
     @media screen and (min-width: $tablet-breakpoint) {
         @content;
@@ -12,6 +15,61 @@
     }
 }
 
+//------------------------------
+// Responsive side, or vertical margins
+//------------------------------
+// Applies different LEFT and RIGHT margins depending on breakpoint
+@mixin responsive-side-margins {
+    padding-left: $mobile-margin;
+    padding-right: $mobile-margin;
+
+    @include tablet {
+        padding-left: $tablet-margin;
+        padding-right: $tablet-margin;
+    }
+
+    @include desktop {
+        padding-left: $desktop-margin;
+        padding-right: $desktop-margin;
+    }
+}
+
+// Applies different TOP margins depending on breakpoint
+@mixin responsive-top-margin {
+    padding-top: $mobile-section-vertical-margin;
+
+    @include tablet {
+        padding-top: $tablet-section-vertical-margin;
+    }
+
+    @include desktop {
+        padding-top: $desktop-section-vertical-margin;
+    }
+}
+
+// Applies different BOTTOM margins depending on breakpoint
+@mixin responsive-bottom-margin {
+    padding-bottom: $mobile-section-vertical-margin;
+
+    @include tablet {
+        padding-bottom: $tablet-section-vertical-margin;
+    }
+
+    @include desktop {
+        padding-bottom: $desktop-section-vertical-margin;
+    }
+}
+
+// Creates small left and right margins for inset sections like "Project Showcase"
+@mixin inset-section-margins {
+    padding-left: 11px;
+    padding-right: 11px;
+    
+    @include tablet {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
 
 //------------------------------
 // Flex

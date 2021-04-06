@@ -19,17 +19,27 @@ $body-font: $mulish;
 //------------------------------
 // Sizing / Spacing
 //------------------------------
+// Side margins
 $mobile-margin: 5.625vw;
 $tablet-margin: 3.255vw;
-$desktop-margin: 5vw;
+$desktop-margin: 0;
+// $desktop-margin: 5vw;
 // $mobile-margin: 18px;
 // $tablet-margin: 25px;
 // $desktop-margin: 60px;
 
-$mobile-section-vertical-margin: 12px;
+// Content container widths
+$desktop-container-width: 1050px;
 
+// Vertical margins
+$mobile-section-vertical-margin: 12px;
+$tablet-section-vertical-margin: 20px;
+$desktop-section-vertical-margin: 20px;
+
+// Common elements spacing
 $paragraph-bottom-margin: 10px;
 
+// Border radius
 $section-border-radius: 10px;
 
 

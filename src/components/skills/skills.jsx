@@ -14,38 +14,38 @@ export default function Skills() {
   return (
     <aside className="skills">
   
-    <h2 className="skills__heading">Skills</h2>
+    <h3 className="skills__heading">Skills</h3>
 
     <div className="skills__group-container">
-      <h3 className="skills__sub-heading">Front-End</h3>
+      <h4 className="skills__sub-heading">Front-End</h4>
       { skillsData.filter( skillsData => skillsData.group === "Front End" ).map(skillsData => {
           return (<SkillTag key={skillsData.id} id={skillsData.id} name={skillsData.name} icon={skillsData.icon} link={skillsData.link} />)
         })}
     </div>
 
     <div className="skills__group-container">
-    <h3 className="skills__sub-heading">Back-End</h3>
+    <h4 className="skills__sub-heading">Back-End</h4>
     { skillsData.filter( skillsData => skillsData.group === "Back End" ).map(skillsData => {
         return (<SkillTag key={skillsData.id} id={skillsData.id} name={skillsData.name} icon={skillsData.icon} link={skillsData.link} />)
       })}
     </div>
 
     <div className="skills__group-container">
-    <h3 className="skills__sub-heading">Testing</h3>
+    <h4 className="skills__sub-heading">Testing</h4>
     { skillsData.filter( skillsData => skillsData.group === "Testing" ).map(skillsData => {
         return (<SkillTag key={skillsData.id} id={skillsData.id} name={skillsData.name} icon={skillsData.icon} link={skillsData.link} />)
       })}
     </div>
 
     <div className="skills__group-container">
-    <h3 className="skills__sub-heading">Development</h3>
+    <h4 className="skills__sub-heading">Development</h4>
     { skillsData.filter( skillsData => skillsData.group === "Development" ).map(skillsData => {
         return (<SkillTag key={skillsData.id} id={skillsData.id} name={skillsData.name} icon={skillsData.icon} link={skillsData.link} />)
       })}
     </div>
 
     <div className="skills__group-container">
-    <h3 className="skills__sub-heading">Graphics</h3>
+    <h4 className="skills__sub-heading">Graphics</h4>
     { skillsData.filter( skillsData => skillsData.group === "Graphics" ).map(skillsData => {
         return (<SkillTag key={skillsData.id} id={skillsData.id} name={skillsData.name} icon={skillsData.icon} link={skillsData.link} />)
       })}      

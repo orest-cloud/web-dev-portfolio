@@ -3,10 +3,26 @@
 @import '../../Styles/Variables';
 
 .project-showcase {
+  @include inset-section-margins;
+  // @include responsive-top-margin;
+  padding-top: 20px;
+  @include responsive-bottom-margin;
 
   border-radius: $section-border-radius;
   background-color: $white;
-  padding: $mobile-section-vertical-margin $mobile-margin;
+  border: 1px solid $grey-3;
+  box-shadow: 5px 5px 7px -5px rgba(0,0,0,0.18);
+  // padding: $mobile-section-vertical-margin 18px;
+  
+  @include tablet {
+    padding-top: 18px;
+    width: 465px;
+  }
+
+  @include desktop {
+    padding-top: 28px;
+    width: 710px;
+  }
 
   &__heading {
     padding-bottom: 8px;
@@ -17,22 +33,11 @@
   }
 
   &__image {
-    background-color: $grey-2;
-    background-image: url('../../assets/images/StompingGround_Details_mobile.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
     border: 1px solid $grey-2;
     margin-bottom: 15px;
-    // padding to maintain aspect ratio for mobile:
-    // Image size w 768 by h 659
-    padding-top: 85.2%;
     
     @include tablet {
-      background-image: url('../../assets/images/StompingGround_Details.jpg');
       max-width: 570px;
-      // Image size w 996 by h 580
-      padding-top: 47.5%;
-      width: 100%;
     }
   }
    

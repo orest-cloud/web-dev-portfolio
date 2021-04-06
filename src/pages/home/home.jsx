@@ -44,8 +44,10 @@ export default function Home() {
       </section>
 
       <section className="home-middle">
-        <Skills />
-        <ProjectShowcase />
+        <div className="home-middle__content-container">
+          <Skills />
+          <ProjectShowcase />
+        </div>
       </section>
 
       <Footer />

@@ -5,20 +5,25 @@ import React from 'react';
 import CircleButton from '../circle-button/circle-button'
 
 // Images
-// import stompingGroundImage from '../../assets/images/StompingGround_Details.jpg';
+import stompingGroundImage from '../../assets/images/StompingGround_Details.jpg';
+import stompingGroundImageMobile from '../../assets/images/StompingGround_Details_mobile.jpg';
 
 // Styles
 import './project-showcase.scss';
+
 
 export default function ProjectShowcase() {
   return (
     <section className="project-showcase">
       <h2 className="project-showcase__heading">Project Showcase</h2>
 
-      <h3 className="project-showcase__sub-heading">Stomping Ground, a real estate based React app</h3>
+      <h4 className="project-showcase__sub-heading">Stomping Ground, a real estate based React app</h4>
 
-      {/* <img src={stompingGroundImage} alt="A screenshot of Stomping Ground" className="project-showcase__image"/> */}
-      <div alt="A screenshot of Stomping Ground" className="project-showcase__image"/>
+      <picture>
+        <source media="(min-width:768px)" srcset={`${stompingGroundImage} 996w`} />
+        <source srcset={`${stompingGroundImageMobile} 768w`} />
+        <img src={stompingGroundImageMobile} alt="Stomping Ground screenshot" className="project-showcase__image" />
+      </picture>
 
       <p className="project-showcase__paragraph">
         A React.js app that brings together data from three APIs: property listings, neighborhood walkability scores, and Google Maps user photos.

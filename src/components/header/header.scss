@@ -4,6 +4,7 @@
 
 .header {
 
+  // @include responsive-side-margins
   padding: 27px 0 $mobile-section-vertical-margin;
   text-align: center;
 
@@ -14,8 +15,10 @@
   }
 
   @include desktop {
+    // Centre the header
+    margin: 0 auto;
     padding: 27px $desktop-margin $mobile-section-vertical-margin;
-
+    width: $desktop-container-width;
   }
 
   &__logo-container {
@@ -66,5 +69,11 @@
   &__contact-link-icon {
     margin: 0 13px;
     width: 33px;
+
+    &--last-item {
+      @include tablet {
+        margin: 0 0 0 13px;
+      }
+    }
   }
 }
