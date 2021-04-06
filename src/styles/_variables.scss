@@ -3,9 +3,9 @@
 //------------------------------
 // Breakpoints
 //------------------------------
-$desktop-breakpoint: 1200px;
-$tablet-breakpoint: 768px;
 $mobile-breakpoint: 320px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1200px;
 
 //------------------------------
 // Fonts
@@ -19,9 +19,12 @@ $body-font: $mulish;
 //------------------------------
 // Sizing / Spacing
 //------------------------------
-$mobile-margin: 18px;
-// $tablet-margin: 100px;
-// $desktop-margin: 100px;
+$mobile-margin: 5.625vw;
+$tablet-margin: 3.255vw;
+$desktop-margin: 5vw;
+// $mobile-margin: 18px;
+// $tablet-margin: 25px;
+// $desktop-margin: 60px;
 
 $mobile-section-vertical-margin: 12px;
 

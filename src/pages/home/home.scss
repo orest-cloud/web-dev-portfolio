@@ -4,7 +4,7 @@
 
 
 .home-bio {
-
+  @include flex(row nowrap, space-between, flex-start);
   padding: 14px $mobile-margin $mobile-section-vertical-margin;
 
   &__portrait {
@@ -13,6 +13,7 @@
     margin-right: 14px;
 
     @include tablet {
+      float: unset;
       max-width: 236px;
     }
   }
@@ -31,5 +32,5 @@
 
 .home-middle {
   background-color: $bg-fill-1;
-  padding: $mobile-section-vertical-margin $mobile-margin ;
+  padding: $mobile-section-vertical-margin $mobile-margin 50px;
 }

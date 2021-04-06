@@ -47,7 +47,7 @@ h5 {
     font-weight: 700;
     letter-spacing: 0.5px;
 
-    @include tablet {
+    @include desktop {
         font-size: 2.0rem;
     }
 }
@@ -60,7 +60,7 @@ h4 {
     font-weight: 700;
     letter-spacing: 0.5px;
 
-    @include tablet {
+    @include desktop {
         font-size: 2.2rem;
     }    
 }
@@ -72,7 +72,7 @@ h3 {
     font-weight: 600;
     line-height: 24px;
 
-    @include tablet {
+    @include desktop {
         font-size: 2.5rem;
     }    
 }
@@ -84,7 +84,7 @@ h2 {
     font-weight: 600;
     // line-height: 22px;
 
-    @include tablet {
+    @include desktop {
         font-size: 4.0rem;
     }    
 }
@@ -97,7 +97,7 @@ h1 {
     // letter-spacing: 0.001px;
     // line-height: 32px;
 
-    @include tablet {
+    @include desktop {
         font-size: 5.7rem;
     }    
 }

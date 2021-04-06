@@ -1,0 +1,13 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+.footer {
+
+  &__text {
+    color: $grey-1;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    text-align: center;
+  }
+}

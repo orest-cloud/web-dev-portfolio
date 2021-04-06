@@ -6,6 +6,7 @@ import Header from '../../components/header/header';
 import CircleButton from '../../components/circle-button/circle-button';
 import Skills from '../../components/skills/skills';
 import ProjectShowcase from '../../components/project-showcase/project-showcase';
+import Footer from '../../components/footer/footer';
 
 // Images 
 import homeBioPortrait from '../../assets/images/orest_portrait_1.jpg';
@@ -47,6 +48,7 @@ export default function Home() {
         <ProjectShowcase />
       </section>
 
+      <Footer />
 
     </>
   )

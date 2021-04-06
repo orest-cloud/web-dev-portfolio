@@ -7,8 +7,23 @@
   padding: 27px 0 $mobile-section-vertical-margin;
   text-align: center;
 
+  @include tablet {
+    @include flex(row wrap, flex-end, center);
+    padding: 27px $tablet-margin $mobile-section-vertical-margin;
+    text-align: left;
+  }
+
+  @include desktop {
+    padding: 27px $desktop-margin $mobile-section-vertical-margin;
+
+  }
+
   &__logo-container {
     margin-bottom: 10px;
+
+    @include tablet {
+      margin-right: auto;
+    }
   }
 
   &__heading {
@@ -17,6 +32,10 @@
 
   &__subheading {
     font-size: 2.3rem;
+
+    @include tablet {
+      margin-left: 6px;
+    }
   }
 
   &__link {
@@ -25,10 +44,17 @@
 
   &__page-links-container {
     margin-bottom: 20px;
+
+    @include tablet {
+      margin-bottom: unset;
+      margin-right: 30px;
+    }
   }
 
   &__page-link {
     @include font($mulish, 1.6rem, 400);
+
+    color: $text-links-color;
     margin: 0 21px;
     text-decoration: none;
   }
