@@ -50,6 +50,10 @@
 
     @include tablet {
       margin-bottom: unset;
+      margin-right: 9px;
+    }
+
+    @include desktop {
       margin-right: 30px;
     }
   }
@@ -60,6 +64,10 @@
     color: $text-links-color;
     margin: 0 21px;
     text-decoration: none;
+
+    @include tablet {
+      margin: 0 13px;
+    }
   }
 
   &__contact-links-container {
@@ -69,6 +77,10 @@
   &__contact-link-icon {
     margin: 0 13px;
     width: 33px;
+
+    &:hover {
+      opacity: 0.5;
+    }
 
     &--last-item {
       @include tablet {

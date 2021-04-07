@@ -4,9 +4,8 @@
 
 .project-showcase {
   @include inset-section-margins;
-  // @include responsive-top-margin;
-  padding-top: 20px;
   @include responsive-bottom-margin;
+  padding-top: 20px;
 
   border-radius: $section-border-radius;
   background-color: $white;
@@ -22,6 +21,16 @@
   @include desktop {
     padding-top: 28px;
     width: 710px;
+  }
+
+  &__link {
+    color: $text-1;
+    text-decoration: none;
+
+    &:hover {
+      
+      text-decoration: underline;
+    }
   }
 
   &__heading {

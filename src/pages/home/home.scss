@@ -61,9 +61,7 @@
     background-color: $bg-fill-1;
   }
   
-  
   &__content-container {
-    
     @include tablet {
       @include flex(row nowrap, space-between, flex-start);
     }
