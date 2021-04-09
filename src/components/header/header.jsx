@@ -19,6 +19,7 @@ export default function Header() {
       <div className="header__page-links-container">
         <Link className="header__page-link">PROJECTS</Link>
         <Link className="header__page-link">ABOUT</Link>
+        <Link className="header__page-link">CV</Link>
       </div>
 
       <div className="header__contact-links-container">

@@ -61,33 +61,37 @@
   &__page-link {
     position: relative; //============= ?
     @include font($mulish, 1.6rem, 400);
-
+    // display: inline-block;
     color: $text-links-color;
     margin: 0 21px;
+    padding: 15px 0;
     text-decoration: none;
 
-    @include tablet {
-      margin: 0 13px;
+    --border-color: #3C79E1;
+    --border-width: 1px;
+    --bottom-distance: 0px; /* you can increase this */
+    
+    // display: inline-block;
+    background-image: linear-gradient(var(--border-color), var(--border-color));
+    background-size: 0% var(--border-width);
+    background-repeat: no-repeat;
+    transition: background-size 0.3s;
+    background-position: 0 calc(100% - var(--bottom-distance));
+    // background-position: 0 calc(100% + var(--bottom-distance));
+    // margin: 5px 0;
+
+    &:hover {
+      background-size: 100% var(--border-width);
     }
 
-    &:hover::after {
-      background-color: #e26184;
-      width: 100%;
+    @include tablet {
+      margin: 0 10px;
+    }
+
+    @include desktop {
+      margin: 0 30px;
     }
     
-    // Hover animation line for page links
-    &::after {
-      background-color: $blue-1;
-      content: '';
-      height: 1px;
-      z-index: 10;
-      width: 5%;
-      
-      position: absolute;
-      left: 50%;
-      top: 100%;
-      transform: translate(-50%, 10px);
-    }
   }
 
   &__contact-links-container {
