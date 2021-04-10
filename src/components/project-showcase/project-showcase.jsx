@@ -13,6 +13,7 @@ import './project-showcase.scss';
 
 
 export default function ProjectShowcase() {
+
   return (
     <section className="project-showcase">
       <Link className="project-showcase__link" to="/projects/stomping-ground"><h2 className="project-showcase__heading">Project Showcase</h2></Link>

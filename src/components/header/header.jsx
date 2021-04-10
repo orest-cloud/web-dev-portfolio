@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <nav className="header">
       <div className="header__logo-container">
-        <Link className="header__link"><h1 className="header__heading">Orest Szopiak</h1></Link>
+        <Link className="header__link" to="/"><h1 className="header__heading">Orest Szopiak</h1></Link>
         <h2 className="header__subheading">Web Developer</h2>
       </div>
 
