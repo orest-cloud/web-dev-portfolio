@@ -1,0 +1,19 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+.project-page-element {
+
+  &__sub-heading {
+    margin: 30px 0 10px;
+  }
+
+  &__image {
+    @include image-with-border;
+  }
+
+  &__paragraph {
+    margin-bottom: $paragraph-bottom-margin;
+  }
+
+}

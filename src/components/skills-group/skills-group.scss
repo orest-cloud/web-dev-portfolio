@@ -2,38 +2,13 @@
 @import '../../Styles/Partials';
 @import '../../Styles/Variables';
 
-.skills {
-  @include responsive-top-margin;
-  @include responsive-bottom-margin;
-  padding-left: 0;
-  padding-right: 0;
-  
-  // padding-bottom: $mobile-section-vertical-margin;
 
-  @include tablet {
-    border: 1px solid $grey-3;
-    box-shadow: 5px 5px 7px -5px rgba(0,0,0,0.18);
-    
-    background-color: $white;
-    border-radius: $section-border-radius;
-    padding-left: 18px;
-    padding-right: 18px;    
-    width: 230px;
-  }
-  
-  @include desktop {
-    width: 312px;
-  }
+.skills-group {
+
+  margin-bottom: 10px;
 
   &__heading {
-    padding-bottom: 7px;
+    padding-bottom: 4px;
   }
 
-  &__sub-heading {
-    padding-bottom: 7px;
-  }
-
-  &__group-container {
-    margin-bottom: 15px;
-  }
 }

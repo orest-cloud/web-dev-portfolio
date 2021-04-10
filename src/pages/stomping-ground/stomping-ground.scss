@@ -4,6 +4,41 @@
 
 
 .stomping-ground {
+  // @include inset-section-margins;
+  @include responsive-side-margins;
+  @include responsive-bottom-margin;
+  padding-top: 20px;
+
+  &__content-container {
+    @include tablet {
+      margin: 0 auto;
+      max-width: 800px;
+    }
+  }
+
+  &__skills-section {
+    margin-bottom: 20px;
+  }
+
+  &__main-heading {
+    margin-bottom: 10px;
+  }
+
+  &__heading {
+
+    &--inline {
+      display: inline;
+      margin-right: 8px;
+    }
+  }
+
+  &__paragraph {
+  
+    &--inline {
+      display: inline;
+    }
+  }
 
   
+
 }

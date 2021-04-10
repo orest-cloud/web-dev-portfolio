@@ -42,8 +42,9 @@
   }
 
   &__image {
-    border: 1px solid $grey-2;
-    margin-bottom: 15px;
+    @include image-with-border;
+    // border: 1px solid $grey-2;
+    // margin-bottom: 15px;
     
     @include tablet {
       max-width: 570px;
