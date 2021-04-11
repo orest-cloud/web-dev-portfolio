@@ -117,7 +117,7 @@
     "caption": ""
   },
   {
-    "type": "custom",
+    "type": "text-with-link",
     "id": 1400,
     "margin_bottom": "standard",
     "media": "",
@@ -147,7 +147,7 @@
     "type": "code",
     "id": 1700,
     "margin_bottom": "standard",
-    "media": "",
+    "media": "code_stomping-ground_client.txt",
     "url": "",
     "content": "Server code",
     "caption": ""
@@ -174,9 +174,9 @@
     "type": "code",
     "id": 2000,
     "margin_bottom": "standard",
-    "media": "",
+    "media": "code_stomping-ground_client.txt",
     "url": "",
-    "content": "Client � Axios request",
+    "content": "Client - Axios request",
     "caption": ""
   },
   {

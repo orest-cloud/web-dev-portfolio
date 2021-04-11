@@ -1,0 +1,14 @@
+apiFetchCall = (currentAreaID) => {
+    Axios
+        .get((this.apiURL + currentAreaID), { params: { name: this.state.address, limit: 15 }})
+        .then((res) => {
+
+            this.setState({
+              neighborhoodData: res.data[0],
+              propertiesData: res.data[1],
+              photosData: res.data[2]
+            });
+        })
+        .catch((err) => console.log(err));
+  }
+

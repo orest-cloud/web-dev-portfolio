@@ -30,7 +30,7 @@ export default function StompingGround() {
             <h2 className="stomping-ground__main-heading">Stomping Ground, a React app</h2>
 
             <div className="stomping-ground__skills-section">
-              <SkillsGroup heading="Tools Used" displaySkills={['React', 'Express.js']} />
+              <SkillsGroup heading="Tools Used" displaySkills={['React', 'Express.js', 'Illustrator']} />
 
               <h4 className="stomping-ground__heading--inline">JS Libraries Used:</h4>
               <p className="stomping-ground__paragraph--inline">Axios, CORS, Nodemon, UUID</p>

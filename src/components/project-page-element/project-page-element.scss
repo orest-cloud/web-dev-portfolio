@@ -8,6 +8,14 @@
     margin: 30px 0 10px;
   }
 
+  &__code {
+    background-color: $grey-3;
+    padding: 25px 10px 25px 45px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 200px;
+  }
+
   &__image {
     @include image-with-border;
   }
