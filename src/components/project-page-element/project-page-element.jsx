@@ -11,6 +11,7 @@ hljs.registerLanguage('javascript', require('highlight.js/lib/languages/javascri
 
 export default function ProjectPageElement({ type, id, margin_bottom, media, url, content, caption }) {
 
+  let captionElement = null;
   let renderElement = null;
 
   if (type === "code") {
@@ -37,7 +38,12 @@ export default function ProjectPageElement({ type, id, margin_bottom, media, url
     renderElement = <h3 className="project-page-element__sub-heading">{content}</h3>;
   }
   else if (type === "image") {
-    renderElement = <img src={`/assets/images/${media}`} alt={content} className="project-page-element__image"/>;
+    // Include the caption, if there is one
+    if (caption) {
+      captionElement = <figcaption className="project-page-element__image-caption">{caption}</figcaption>;
+    }
+
+    renderElement = <figure className='project-page-element__image-container'><img src={`/assets/images/${media}`} alt={content} className="project-page-element__image"/>{captionElement}</figure>;
   }
   else if (type === "paragraph") {
     renderElement = <p className="project-page-element__paragraph">{content}</p>;
@@ -52,6 +58,6 @@ export default function ProjectPageElement({ type, id, margin_bottom, media, url
   }
 
   return (
-    <p>{renderElement}</p>
+    <>{renderElement}</>
   )
 }

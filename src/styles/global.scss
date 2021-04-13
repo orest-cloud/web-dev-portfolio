@@ -103,12 +103,17 @@ Link, a {
     // text-decoration: none;
 }
 
+figcaption {
+    @include font($mulish, 1.3rem, 700);
+    color: $grey-1;
+}
+
 
 
 //------------------------------
 // Remove default styling
 //------------------------------
-h1, h2, h3, h4, hr, ul, li, img, p, label, input, button {
+h1, h2, h3, h4, hr, ul, li, img, p, label, input, button, caption, figure {
     margin: 0;
     padding: 0;
 }

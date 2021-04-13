@@ -15,7 +15,7 @@
     "media": "StompingGround_Home_1.jpg",
     "url": "",
     "content": "Stomping Ground home page",
-    "caption": ""
+    "caption": "The Stomping Ground home page."
   },
   {
     "type": "paragraph",
@@ -57,10 +57,10 @@
     "type": "image",
     "id": 700,
     "margin_bottom": "standard",
-    "media": "StompinGround_Results.jpg",
+    "media": "StompingGround_Results.jpg",
     "url": "",
     "content": "Property listings",
-    "caption": ""
+    "caption": "Neighborhood page featuring property listings."
   },
   {
     "type": "h3",
@@ -102,10 +102,10 @@
     "type": "image",
     "id": 1200,
     "margin_bottom": "standard",
-    "media": "StompingGround_Details_2.jpg",
+    "media": "StompingGround_Photos_1.jpg",
     "url": "",
-    "content": "Property details",
-    "caption": ""
+    "content": "Photos from Google Maps Places",
+    "caption": "Photos of the neighborhood from Google Maps Places API."
   },
   {
     "type": "h3",
@@ -177,87 +177,6 @@
     "media": "code_stomping-ground_client.txt",
     "url": "",
     "content": "Client - Axios request",
-    "caption": ""
-  },
-  {
-    "type": "h3",
-    "id": 2100,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Process",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 2200,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "I wrote a proposal outling the concept and architecture of the app. I received approval from BrainStation web development educators and constructive feedback, which I incorporated into my specs.",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 2300,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "I created wireframes showing the basic layout and flow.",
-    "caption": ""
-  },
-  {
-    "type": "image",
-    "id": 2400,
-    "margin_bottom": "standard",
-    "media": "StompingGround_Wireframes_1.jpg",
-    "url": "",
-    "content": "Stomping Ground wireframe",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 2500,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "I then created high fidelity mockups in Adobe Illustrator. These served as a reference guide when I began building the client side in React.",
-    "caption": ""
-  },
-  {
-    "type": "image",
-    "id": 2600,
-    "margin_bottom": "standard",
-    "media": "StompingGround_Prototype_1.jpg",
-    "url": "",
-    "content": "The design prototype for Stomping Ground",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 2700,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "I used Adobe Animate CC to create my animated logo. I was able to embed and manipulate the frames of this animation in React using a library called animate-react.",
-    "caption": ""
-  },
-  {
-    "type": "image",
-    "id": 2800,
-    "margin_bottom": "standard",
-    "media": "StompingGround_logo_animated.gif",
-    "url": "",
-    "content": "An animated logo",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 2900,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "I'm proud of this project because I know that some of the techniques I learned in order to extract data from external sources like Google Maps Places could be transferrable to other informational sites, and for sites that use geolocation.",
     "caption": ""
   }
  ]
