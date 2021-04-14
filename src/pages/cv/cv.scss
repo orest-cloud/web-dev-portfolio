@@ -1,0 +1,44 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+
+.cv {
+  @include responsive-side-margins;
+  @include responsive-bottom-margin;
+  padding-top: 20px;
+
+  &__content-container {
+    @include tablet {
+      margin: 0 auto;
+      max-width: 800px;
+    }
+  }
+
+  &__main-heading {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    // display: block;
+    @include flex(row nowrap, flex-start, center);
+    // display: flex;
+    margin-bottom: 15px;
+  }
+
+  &__icon {
+    display: inline;
+    height: 24px;
+    padding-right: 10px;
+    width: auto;
+  }
+
+  &__pdf-embed {
+    @include image-with-border;
+    
+    // background-color: gainsboro;
+    // width: 100%;
+    // height: 1100px;
+  }
+
+}

@@ -17,7 +17,6 @@ export default function Header() {
       </div>
 
       <div className="header__page-links-container">
-        <Link className="header__page-link" to="/projects">PROJECTS</Link>
         <Link className="header__page-link" to="/about">ABOUT</Link>
         <Link className="header__page-link" to="/cv">CV</Link>
       </div>

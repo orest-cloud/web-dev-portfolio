@@ -101,6 +101,9 @@ h1 {
 Link, a {
     color: $text-links-color;
     // text-decoration: none;
+    font-family: $body-font;
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 figcaption {
