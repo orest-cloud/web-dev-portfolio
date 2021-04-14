@@ -34,8 +34,14 @@ export default function ProjectPageElement({ type, id, margin_bottom, media, url
   else if (type === "custom") {
     renderElement = "custom";
   }
+  else if (type === "h2") {
+    renderElement = <h2 className="project-page-element__main-heading">{content}</h2>;
+  }
   else if (type === "h3") {
     renderElement = <h3 className="project-page-element__sub-heading">{content}</h3>;
+  }
+  else if (type === "h4") {
+    renderElement = <h4 className="project-page-element__h4">{content}</h4>;
   }
   else if (type === "image") {
     // Include the caption, if there is one

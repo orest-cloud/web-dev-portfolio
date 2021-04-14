@@ -1,0 +1,137 @@
+[
+  {
+    "type": "h2",
+    "id": 100,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "About Me",
+    "caption": ""
+  },
+  {
+    "type": "h3",
+    "id": 200,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "Work History",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 300,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "In 2008 I graduated from Ryerson University with a degree in New Media. The program focused on concepts connected with emerging technologies and taught practical applications of HTML/CSS, as well as circuit building, and graphical programs like After Effects.",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 400,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "My final New Media project was a trucking theme game styled after early graphical adventure games. The project was featured in Ryerson's Nuit Blanche showcase of 2007.",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 500,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "My first role in the tech industry was with Webkinz in 2008 (a division of Ganz Studios), at the time a leader in the world of online family entertainment, which gave me an invaluable foundation for working in tech: Participating in Scrums; using a version controlled repository; coordinating with multiple departments (Creative writers, devs, QA, and artists) to produce interactive content; adhering to strict technical standards when delivering assets. At the time, I was coding in ActionScript, the programming language of Flash.",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 600,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "My next full time role was with ELL Technologies, an english language software producer, which provided the chance to contribute in the world of education design.",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 700,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "My role at marketing agency Inter-Web was a fast-paced role in which I took a central role in designing, prototyping and writing  spec documents for several eCommerce websites. I created art concepts and wrote HTML/CSS to launch landing pages and e-newsletters. It was largely the positive experiences coding for web which led me to embark on a career based on working with front-end technology.",
+    "caption": ""
+  },
+  {
+    "type": "h3",
+    "id": 800,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "About Me",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 900,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "In my spare time, I enjoy digging up facts and personal accounts about the history of computer technology, software and games. I'm an avid reader and tea drinker, as well a frequent badminton player.",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 1000,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "I volunteer with an organization called Destination Imagination, which facilitates extracurricular creative and engineering challenges for children and high-school students.",
+    "caption": ""
+  },
+  {
+    "type": "h3",
+    "id": 1100,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "Education",
+    "caption": ""
+  },
+  {
+    "type": "h4",
+    "id": 1200,
+    "margin_bottom": "",
+    "media": "",
+    "url": "",
+    "content": "BrainStation - Web Development",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 1300,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "",
+    "caption": ""
+  },
+  {
+    "type": "h4",
+    "id": 1400,
+    "margin_bottom": "",
+    "media": "",
+    "url": "",
+    "content": "Ryerson University - New Media",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 1500,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "",
+    "caption": ""
+  }
+ ]

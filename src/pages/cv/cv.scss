@@ -2,8 +2,20 @@
 @import '../../Styles/Partials';
 @import '../../Styles/Variables';
 
+.react-pdf__Page__canvas {
+  @include image-with-border;
+  // @include aspect-ratio(210, 297);
+  // margin: 0;
+  // width: auto !important;
+  // height: auto im !important;
+  // padding-top: 129.41%;
+	
+	// background-color: lightgreen;
+  // background-size: contain;
+}
 
 .cv {
+  // background-color: lightgreen;
   @include responsive-side-margins;
   @include responsive-bottom-margin;
   padding-top: 20px;
@@ -13,6 +25,12 @@
       margin: 0 auto;
       max-width: 800px;
     }
+  }
+
+  &__dummy-div {
+    background-color: lightsalmon;
+    height: 5px;
+    opacity: 1; //==============
   }
 
   &__main-heading {
@@ -33,9 +51,15 @@
     width: auto;
   }
 
-  &__pdf-embed {
+  &__image {
     @include image-with-border;
-    
+  }
+
+  &__pdf-embed {
+    // @include image-with-border;
+
+    // border: 1px solid $grey-2;
+    opacity: 1; //=======================
     // background-color: gainsboro;
     // width: 100%;
     // height: 1100px;
