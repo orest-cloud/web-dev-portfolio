@@ -1,36 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 
 // Styles
 import './project-page-element.scss';
+// import { useState } from 'react';
+// import { useEffect } from 'react';
 
 // Highlight JS
-const hljs = require('highlight.js/lib/core');
-hljs.registerLanguage('javascript', require('highlight.js/lib/languages/javascript'));
+// const hljs = require('highlight.js');
 
+// Highlight JS "smaller footprint"
+// const hljs = require('highlight.js/lib/core');
+// hljs.registerLanguage('javascript', require('highlight.js/lib/languages/xml'));
 
-export default function ProjectPageElement({ type, id, margin_bottom, media, url, content, caption }) {
+export default function ProjectPageElement({ type, media, url, content, caption }) {
+  const [codeContent, setCodeContent] = useState("");
+
+  // useEffect(() => {
+  //   // Update the document title using the browser API
+  //   renderElement = <pre className="project-page-element__code">{codeContent}</pre>;
+  // });
 
   let captionElement = null;
   let renderElement = null;
 
   if (type === "code") {
-    // const SG_ClientCode = require(`../../data/${media}`);
-    let codeContent = "";
-
-    console.log('%c This is the code file we are getting.', "color: blue; font-weight: bold;");
-      console.log(media);
+    renderElement = <pre className="project-page-element__code"><code>{codeContent}</code></pre>;
 
     fetch(`../../data/${media}`)
     .then((r) => r.text())
     .then( data => {
-      console.log('%c This is the data.', "color: green; font-weight: bold;");
-      console.log(data);
-      codeContent = data;
-    }) 
+      // const highlightedCode = hljs.highlightAuto('<h3>Hello World!</h3>').value;
 
-    renderElement = <pre className="project-page-element__code">{`${codeContent}`}</pre>;
-  }
+      // Sets the state of codeContent in order to re-render
+      // setCodeContent(highlightedCode);
+      setCodeContent(data);
+    })
+	  
+  } // end of CODE type
   else if (type === "custom") {
     renderElement = "custom";
   }
@@ -51,6 +58,25 @@ export default function ProjectPageElement({ type, id, margin_bottom, media, url
 
     renderElement = <figure className='project-page-element__image-container'><img src={`/assets/images/${media}`} alt={content} className="project-page-element__image"/>{captionElement}</figure>;
   }
+
+  else if (type === "image_with_text") {
+    // Include the caption, if there is one
+    if (caption) {
+      captionElement = <figcaption className="project-page-element__image-caption">{caption}</figcaption>;
+    }
+
+    renderElement = <div className="image-with-text"><figure className='image-with-text__figure'><img src={`/assets/images/${media}`} alt={content} className="image-with-text__image"/>{captionElement}</figure><p className="image-with-text__paragraph">{content}</p></div>;
+  }
+
+  else if (type === "image_with_text_reverse") {
+    // Include the caption, if there is one
+    if (caption) {
+      captionElement = <figcaption className="project-page-element__image-caption">{caption}</figcaption>;
+    }
+
+    renderElement = <div className="image-with-text"><p className="image-with-text__paragraph">{content}</p><figure className='image-with-text__figure'><img src={`/assets/images/${media}`} alt={content} className="image-with-text__image"/>{captionElement}</figure></div>;
+  }  
+
   else if (type === "paragraph") {
     renderElement = <p className="project-page-element__paragraph">{content}</p>;
   }

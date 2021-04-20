@@ -1,0 +1,149 @@
+[
+  {
+    "name": "After Effects",
+    "id": 100,
+    "group": "Graphics",
+    "icon": "adobe_after_effects.svg",
+    "link": "aftereffects"
+  },
+  {
+    "name": "CSS3",
+    "id": 200,
+    "group": "Front End",
+    "icon": "css3.svg",
+    "link": "css3"
+  },
+  {
+    "name": "Experience Design",
+    "id": 300,
+    "group": "Graphics",
+    "icon": "adobe_experience_design.svg",
+    "link": "experiencedesign"
+  },
+  {
+    "name": "Express.js",
+    "id": 400,
+    "group": "Back End",
+    "icon": "express.svg",
+    "link": "expressjs"
+  },
+  {
+    "name": "Figma",
+    "id": 500,
+    "group": "Graphics",
+    "icon": "figma.svg",
+    "link": "figma"
+  },
+  {
+    "name": "Git",
+    "id": 600,
+    "group": "Development",
+    "icon": "git.svg",
+    "link": "git"
+  },
+  {
+    "name": "HTML5",
+    "id": 700,
+    "group": "Front End",
+    "icon": "html5.svg",
+    "link": "html5"
+  },
+  {
+    "name": "Illustrator",
+    "id": 800,
+    "group": "Graphics",
+    "icon": "adobe_illustrator.svg",
+    "link": "illustrator"
+  },
+  {
+    "name": "InDesign",
+    "id": 900,
+    "group": "Graphics",
+    "icon": "adobe_indesign.svg",
+    "link": "indesign"
+  },
+  {
+    "name": "InVision",
+    "id": 1000,
+    "group": "Graphics",
+    "icon": "invision.svg",
+    "link": "invision"
+  },
+  {
+    "name": "JavaScript",
+    "id": 1100,
+    "group": "Front End",
+    "icon": "javascript.svg",
+    "link": "javascript"
+  },
+  {
+    "name": "Jest",
+    "id": 1200,
+    "group": "Testing",
+    "icon": "jest.svg",
+    "link": "jest"
+  },
+  {
+    "name": "Node.js",
+    "id": 1300,
+    "group": "Back End",
+    "icon": "nodejs.svg",
+    "link": "nodejs"
+  },
+  {
+    "name": "OAuth",
+    "id": 1400,
+    "group": "Back End",
+    "icon": "oauth.svg",
+    "link": "oauth"
+  },
+  {
+    "name": "Photoshop",
+    "id": 1500,
+    "group": "Graphics",
+    "icon": "adobe_photoshop.svg",
+    "link": "photoshop"
+  },
+  {
+    "name": "Premiere",
+    "id": 1600,
+    "group": "Graphics",
+    "icon": "adobe_premiere.svg",
+    "link": "premiere"
+  },
+  {
+    "name": "React",
+    "id": 1700,
+    "group": "Front End",
+    "icon": "react.svg",
+    "link": "react"
+  },
+  {
+    "name": "Redux",
+    "id": 1800,
+    "group": "Back End",
+    "icon": "redux.svg",
+    "link": "redux"
+  },
+  {
+    "name": "RESTful APIs",
+    "id": 1900,
+    "group": "Back End",
+    "icon": "restful_apis.svg",
+    "link": "restfulapis"
+  },
+  {
+    "name": "SASS",
+    "id": 2000,
+    "group": "Front End",
+    "icon": "sass.svg",
+    "link": "sass"
+  },
+  {
+    "name": "Zeplin",
+    "id": 2100,
+    "group": "Graphics",
+    "icon": "zeplin.svg",
+    "link": "zeplin"
+  }
+ ]

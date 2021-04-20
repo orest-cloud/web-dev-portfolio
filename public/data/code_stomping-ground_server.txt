@@ -2,7 +2,7 @@
 // Functions for processing Google Photos data
 //==============================================//
 
-// get latitude and longitude of address
+//get latitude and longitude of address
 async function googleApiGetLatLng(addressName) {
     try {
       const data = await axios.get("https://maps.googleapis.com/maps/api/place/findplacefromtext/json?inputtype=textquery&fields=photos,formatted_address,name,geometry", { params: { input: addressName, key: apikey }});
@@ -17,7 +17,7 @@ async function googleApiGetLatLng(addressName) {
     }
   }
 
-// get nearby locations to latitude and longitude
+//get nearby locations to latitude and longitude
 async function googleApiGetNearby(lat, lng) {
     try {
     const data = await axios.get("https://maps.googleapis.com/maps/api/place/nearbysearch/json?radius=1500", { params: { location: lat + "," + lng, key: apikey }});
@@ -41,7 +41,7 @@ async function googleApiGetNearby(lat, lng) {
     }
   }
 
-// get image data by photo reference Id
+//get image data by photo reference Id
 async function googleApiGetPhotos(photoRefList, limit) {
     try {
       let iLimit = Number.parseInt(limit);

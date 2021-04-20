@@ -17,12 +17,20 @@
   }
 
   &__code {
-    background-color: $grey-3;
-    padding: 25px 10px 25px 45px;
+    // @include font($mulish, 1.6rem, 400);
+    background-color: #1e1e1e;
+    color: #9cdcfe;
+    padding: 10px 5px;
     margin: 30px 0;
-    overflow-x: scroll;
+    // overflow-x: scroll;
     overflow-y: scroll;
-    height: 200px;
+    max-height: 350px;
+    
+    @include tablet {
+      @include font($mulish, 1.6rem, 400);
+      max-height: 290px;
+      padding: 10px 20px;
+    }
   }
 
   &__image {
@@ -30,14 +38,44 @@
     margin-top: 30px;
 
     &-container {
-      margin-bottom: 50px;
-      // margin: 0;
-    }
+      margin-bottom: 30px;
 
+      // @include tablet {
+      //   margin-bottom: 50px;
+      // }
+    }
   }
 
   &__paragraph {
     margin-bottom: $paragraph-bottom-margin;
+  }
+}
+
+
+.image-with-text {
+  margin: 20px 0;
+  
+  @include tablet {
+    @include flex(row nowrap, space-between, flex-start);
+  }
+
+  &__figure {
+    margin: 30px 0 30px;
+    
+    @include tablet {
+      margin: unset;
+      width: 49%;
+    }
+  }
+
+  &__image {
+    @include image-with-border;
+  }
+  
+  &__paragraph {
+    @include tablet {
+      width: 49%;
+    }
   }
 
 }

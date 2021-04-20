@@ -2,6 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 
 // Components 
+import CircleButton from '../../components/circle-button/circle-button';
 import Header from '../../components/header/header';
 import ProjectPageElement from '../../components/project-page-element/project-page-element';
 import Footer from '../../components/footer/footer';
@@ -31,7 +32,11 @@ export default function About() {
                 <ProjectPageElement key={pageData.id} {...pageData} />
              )})}
 
+            <div className="about__button-container">
+              <CircleButton cta="See more details in my CV" url="/cv" />
+            </div>
           </div>
+
         </section>
 
       <Footer />

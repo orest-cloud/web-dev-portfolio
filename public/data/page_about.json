@@ -36,17 +36,17 @@
     "caption": ""
   },
   {
-    "type": "image_with_text",
-    "id": 700,
+    "type": "paragraph",
+    "id": 500,
     "margin_bottom": "standard",
-    "media": "webkinz_jr_ny.jpg",
+    "media": "",
     "url": "",
     "content": "My first role in the tech industry was with Webkinz in 2008 (a division of Ganz Studios), at the time a leader in the world of online family entertainment, which gave me an invaluable foundation for working in tech: Participating in Scrums; using a version controlled repository; coordinating with multiple departments (Creative writers, devs, QA, and artists) to produce interactive content; adhering to strict technical standards when delivering assets. At the time, I was coding in ActionScript, the programming language of Flash.",
-    "caption": "My UI design of a Webkinz Jr. Online activity, as seen in The New York Times, May 2009."
+    "caption": ""
   },
   {
     "type": "paragraph",
-    "id": 800,
+    "id": 600,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -54,35 +54,35 @@
     "caption": ""
   },
   {
-    "type": "image_with_text",
-    "id": 900,
+    "type": "paragraph",
+    "id": 700,
     "margin_bottom": "standard",
-    "media": "CDI_video_slide_desktop.png",
+    "media": "",
     "url": "",
     "content": "My role at marketing agency Inter-Web was a fast-paced role in which I took a central role in designing, prototyping and writing  spec documents for several eCommerce websites. I created art concepts and wrote HTML/CSS to launch landing pages and e-newsletters. It was largely the positive experiences coding for web which led me to embark on a career based on working with front-end technology.",
-    "caption": "During my time at a marketing agency, I re-designed e-commerce websites, including Canadian Insulin, shown here."
+    "caption": ""
   },
   {
     "type": "h3",
+    "id": 800,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "About Me",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 900,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "In my spare time, I enjoy digging up facts and personal accounts about the history of computer technology, software and games. I'm an avid reader and tea drinker, as well a frequent badminton player.",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
     "id": 1000,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Personal Interests",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 1100,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "In my spare time, I enjoy digging up facts and personal accounts about the history of computer technology, software and games. I'm an avid reader, as well a frequent badminton player.",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 1200,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -91,7 +91,7 @@
   },
   {
     "type": "h3",
-    "id": 1300,
+    "id": 1100,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -100,11 +100,29 @@
   },
   {
     "type": "h4",
-    "id": 1400,
-    "margin_bottom": "standard",
+    "id": 1200,
+    "margin_bottom": "",
     "media": "",
     "url": "",
     "content": "BrainStation - Web Development",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 1300,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "",
+    "caption": ""
+  },
+  {
+    "type": "h4",
+    "id": 1400,
+    "margin_bottom": "",
+    "media": "",
+    "url": "",
+    "content": "Ryerson University - New Media",
     "caption": ""
   },
   {
@@ -113,25 +131,7 @@
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "Three month diploma program intensive in Front End technologies, including React, SASS, command line Git, accessibility, OAuth, MySQL, as well as server side javascript, Model-view-controller software design pattern, computer networking fundamentals.",
-    "caption": ""
-  },
-  {
-    "type": "h4",
-    "id": 1600,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Ryerson University - New Media",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 1700,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Training in the Principles and history of Design, circuit building, HTML/CSS, and various multimedia software including After Effects, Final Cut Pro, and PhotoShop. Additionally, concepts and theories relating to emerging technology, culture, and art.",
+    "content": "",
     "caption": ""
   }
  ]
