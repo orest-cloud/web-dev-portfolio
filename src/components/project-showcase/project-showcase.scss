@@ -15,12 +15,13 @@
   
   @include tablet {
     padding-top: 18px;
-    width: 465px;
+    // width: 465px;
+    max-width: 770px;
   }
 
   @include desktop {
     padding-top: 28px;
-    width: 710px;
+    max-width: 710px;
   }
 
   &__link {

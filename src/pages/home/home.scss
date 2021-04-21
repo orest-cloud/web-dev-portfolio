@@ -3,9 +3,22 @@
 @import '../../Styles/Variables';
 
 
+
+.home {
+  &__top-container {
+    // background-image: linear-gradient(180deg, #8392DE, #29398B);
+    background-image: linear-gradient(180deg, #29398B, #8392DE);
+    
+    @include tablet {
+      padding-bottom: 50px;
+    }
+  }
+}
+
 .home-bio {
   @include responsive-side-margins;
-  @include responsive-bottom-margin;
+  // @include responsive-bottom-margin;
+  padding-bottom: 30px;
   padding-top: 14px;
   
   @include tablet {
@@ -25,10 +38,10 @@
 
     @include tablet {
       float: unset;
-      margin-right: 55px;
+      margin-right: 30px;
       max-width: 236px;
     }
-
+    
     @include desktop {
       margin-right: 0;
     }
@@ -42,6 +55,7 @@
   }
 
   &__text {
+    color: $white;
     padding-bottom: $paragraph-bottom-margin;
   }
 
@@ -63,12 +77,16 @@
   
   &__content-container {
     @include tablet {
+      position: relative;
+      top: -70px;
       @include flex(row nowrap, space-between, flex-start);
     }
     
     @include desktop {
       margin: 0 auto;
+      top: -50px;
       width: $desktop-container-width;
+      @include flex(row nowrap, space-between, flex-start);
     }
   }
 }

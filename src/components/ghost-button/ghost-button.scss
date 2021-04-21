@@ -1,0 +1,71 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+.ghost-button {
+  @include flex(row nowrap, flex-start, flex-start);
+
+  border: 1px solid $white;
+  border-radius: 25px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  transition: border-color 0.3s;
+  
+  @include desktop {
+    margin-top: 15px;
+  }
+
+  &:hover {
+    border-color: $blue-3;
+    transition: border-color 0.3s;
+  }
+  
+  &__link {
+    text-decoration: none;
+  }
+  
+  &__icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 7px;
+    position: relative;
+    top: 4px;
+    transition: fill 0.3s;
+    fill: $white;
+
+    // &:hover {
+    //   opacity: 1;
+    // }
+  }
+  
+  &:hover > &__icon {
+    fill: $blue-3;
+    transition: fill 0.3s;
+  }
+
+  &__text {
+    @include font($mulish, 1.6rem, 400);
+    color: $white;
+    text-align: left;
+    // margin-top: 7px;
+    transition: color 0.3s;
+
+    // "NIGHT mode" styling for text
+    &--night-mode {
+      // font-weight: 800;
+      // color: #222222;
+      // color: $white;
+      opacity: 1;
+    }
+
+    // &:hover {
+    //   text-decoration: underline;
+    // }
+  }
+
+  &:hover > &__text {
+    color: $blue-3; 
+    transition: color 0.3s;
+  }
+
+}

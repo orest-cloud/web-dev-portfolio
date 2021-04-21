@@ -3,13 +3,14 @@ import React from 'react';
 
 // Components 
 import Header from '../../components/header/header';
-import CircleButton from '../../components/circle-button/circle-button';
+import GhostButton from '../../components/ghost-button/ghost-button';
 import Skills from '../../components/skills/skills';
 import ProjectShowcase from '../../components/project-showcase/project-showcase';
 import Footer from '../../components/footer/footer';
 
 // Images 
 import homeBioPortrait from '../../assets/images/orest_portrait_1.jpg';
+
 // import stompingGroundDetails from '../../assets/images/StompingGround_Details.jpg';
 
 // Styles 
@@ -20,7 +21,8 @@ export default function Home() {
 
   return (
     <>
-      <Header />
+      <div className="home__top-container">
+      <Header mode="night" />
 
       <section className="home-bio">
         <img src={homeBioPortrait} alt="Orest" className="home-bio__portrait"/>
@@ -38,10 +40,11 @@ export default function Home() {
           The keystones of my practice are reliability, attention to detail, and continuous learning.
           </p>
 
-          <CircleButton cta="Read more about my history" url="/about" />
+          <GhostButton cta="Read more" url="/about" />
           
         </div>
       </section>
+      </div>
 
       <section className="home-middle">
         <div className="home-middle__content-container">

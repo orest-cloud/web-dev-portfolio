@@ -31,6 +31,14 @@
     margin-top: 7px;
     transition: transform 0.3s;
 
+    // "NIGHT mode" styling for text
+    &--night-mode {
+      // font-weight: 800;
+      // color: #222222;
+      // color: $white;
+      opacity: 1;
+    }
+
     &:hover {
       text-decoration: underline;
     }

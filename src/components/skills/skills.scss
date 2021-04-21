@@ -16,13 +16,16 @@
     
     background-color: $white;
     border-radius: $section-border-radius;
+    margin-right: 20px;
     padding-left: 18px;
     padding-right: 18px;    
-    width: 230px;
+    // width: 230px;
+    max-width: 312px;
   }
   
   @include desktop {
-    width: 312px;
+    margin-right: unset;
+    // width: 312px;
   }
 
   &__heading {

@@ -34,6 +34,7 @@
   }
 
   &__subheading {
+    color: $grey-2;
     font-size: 2.3rem;
 
     @include tablet {
@@ -57,7 +58,8 @@
       margin-right: 30px;
     }
   }
-
+  
+  // ABOUT, CV, etc.
   &__page-link {
     position: relative; //============= ?
     @include font($mulish, 1.6rem, 400);
@@ -98,9 +100,27 @@
     opacity: 1; //=====================
   }
 
+  // Social ICONS. i.e. github, linkedin
   &__contact-link-icon {
     margin: 0 13px;
     width: 33px;
+
+    &--mailto {
+      fill: #999999;
+    }
+    
+    &--git {
+      fill: $black;
+    }
+
+    &--linkedin {
+      fill: #0077B7;
+    }
+
+    // Standard colours
+    // --mailto: 999999
+    // --git: $black
+    // --linkedin #0077B7
 
     &:hover {
       opacity: 0.5;
@@ -111,5 +131,30 @@
         margin: 0 0 0 13px;
       }
     }
+  }
+}
+
+.header-night-mode {
+  &__heading {
+    // color: $white;
+    // color: $blue-1;
+    opacity: 1;
+  }
+
+  &__subheading {
+    // color: $grey-2;
+    color: $white;
+    // color: $blue-3;
+  }
+
+  &__page-link {
+    color: $white;
+  }
+
+  // Social icons. i.e. github, linkedin
+  &__contact-link-icon {
+    fill: $grey-2;
+    fill: $white;
+    fill: $blue-3;
   }
 }
