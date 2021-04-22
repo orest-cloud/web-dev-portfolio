@@ -88,13 +88,13 @@ h2 {
 h1 {
     color: $text-2;
     font-family: $heading-font;
-    font-size: 4.0rem;
+    font-size: 2.4rem;
     font-weight: 600;
     // letter-spacing: 0.001px;
     // line-height: 32px;
 
     @include desktop {
-        font-size: 5.0rem;
+        font-size: 2.1rem;
     }    
 }
 
