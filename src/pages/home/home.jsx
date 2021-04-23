@@ -25,7 +25,9 @@ export default function Home() {
       <Header mode="night" />
 
       <section className="home-bio">
-        <img src={homeBioPortrait} alt="Orest" className="home-bio__portrait"/>
+        <div className="home-bio__portrait-container">
+          <img src={homeBioPortrait} alt="Orest" className="home-bio__portrait"/>
+        </div>
 
         <div className="home-bio__text-container">
           <p className="home-bio__text">

@@ -26,8 +26,9 @@ export default function Header({mode}) {
     <nav className="header">
       <div className="header__logo-container">
         <Link className="header__link" to="/"><h1 className={`header__heading ${nightModeAdder('heading')}`}>Orest Szopiak</h1></Link>
-        <p className="header__logo-divider">|</p>
-        <h2 className={`header__subheading ${nightModeAdder('subheading')}`}>Web Developer</h2>
+        <p className="header__logo-text-divider">|</p>
+        <div className="header__logo-div-divider"></div>
+        <Link className="header__link" to="/"><h2 className={`header__subheading ${nightModeAdder('subheading')}`}>Web Developer</h2></Link>
       </div>
 
       <div className="header__page-links-container">

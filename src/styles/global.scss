@@ -93,7 +93,7 @@ h1 {
     // letter-spacing: 0.001px;
     // line-height: 32px;
 
-    @include desktop {
+    @include tablet {
         font-size: 2.1rem;
     }    
 }

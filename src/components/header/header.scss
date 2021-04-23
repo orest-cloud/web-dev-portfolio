@@ -9,8 +9,8 @@
   text-align: center;
 
   @include tablet {
-    @include flex(row wrap, flex-end, center);
-    padding: 27px $tablet-margin $mobile-section-vertical-margin;
+    @include flex(row wrap, flex-end, baseline);
+    padding: 15px $tablet-margin $mobile-section-vertical-margin;
     text-align: left;
   }
 
@@ -23,22 +23,46 @@
 
   &__logo-container {
     margin-bottom: 10px;
-
+    
     @include tablet {
+      @include flex(row wrap, space-between, flex-start);
       margin-right: auto;
     }
   }
 
   &__heading {
-    line-height: 90%;
+    // line-height: 90%;
+    opacity: 1;
   }
 
   &__subheading {
     color: $grey-2;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
 
     @include tablet {
-      margin-left: 6px;
+      // margin-left: 6px;
+    }
+  }
+
+  &__logo-text-divider {
+    display: none;
+
+    @include tablet {
+      // @include font($body-font, 2.1rem, 600);
+      font-weight: 600;
+      display: inline;
+      color: $grey-2;
+      margin: 0 6px;
+    }
+  }
+  
+  &__logo-div-divider {
+    border-top: 1px solid $grey-2;
+    margin: 0 auto;
+    width: 164px;
+
+    @include tablet {
+      display: none;
     }
   }
 
@@ -73,14 +97,11 @@
     --border-width: 1px;
     --bottom-distance: 0px; /* you can increase this */
     
-    // display: inline-block;
     background-image: linear-gradient(var(--border-color), var(--border-color));
     background-size: 0% var(--border-width);
     background-repeat: no-repeat;
     transition: background-size 0.3s;
     background-position: 0 calc(100% - var(--bottom-distance));
-    // background-position: 0 calc(100% + var(--bottom-distance));
-    // margin: 5px 0;
 
     &:hover {
       background-size: 100% var(--border-width);
@@ -97,7 +118,13 @@
   }
 
   &__contact-links-container {
-    opacity: 1; //=====================
+    @include flex(row nowrap, center, center);
+    
+    @include tablet {
+      @include flex(row nowrap, space-between, center);
+      position: relative;
+      top: 5px;
+    }
   }
 
   // Social ICONS. i.e. github, linkedin
@@ -123,7 +150,7 @@
     // --linkedin #0077B7
 
     &:hover {
-      opacity: 0.5;
+      opacity: 0.65;
     }
 
     &--last-item {
@@ -136,25 +163,28 @@
 
 .header-night-mode {
   &__heading {
-    // color: $white;
+    color: $white;
     // color: $blue-1;
+    // color: $blue-3;
     opacity: 1;
   }
 
   &__subheading {
-    // color: $grey-2;
-    color: $white;
-    // color: $blue-3;
+    color: $grey-2;
+    // color: $white;
+    // color: $blue-1;
   }
 
   &__page-link {
     color: $white;
+
+    --border-color: white;
   }
 
   // Social icons. i.e. github, linkedin
   &__contact-link-icon {
-    fill: $grey-2;
-    fill: $white;
-    fill: $blue-3;
+    fill: $grey-3;
+    // fill: $white;
+    // fill: $blue-3;
   }
 }
