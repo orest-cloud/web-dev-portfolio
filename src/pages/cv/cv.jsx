@@ -27,6 +27,8 @@ export default class CV extends React.Component {
           
             <h2 className="cv__main-heading">Professional CV</h2>
 
+            <div className="cv__hr" />
+
             <a href="/assets/pdfs/OrestSzopiak_CV.pdf" target="_blank" className="cv__link"><img src={pdfIcon} alt="PDF download" className="cv__icon"/>View / Download PDF (73kb)</a>
 
             <a href="/assets/pdfs/OrestSzopiak_CV.pdf" target="_blank" className="cv__link">

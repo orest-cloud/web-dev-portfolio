@@ -19,6 +19,7 @@
   @include responsive-side-margins;
   @include responsive-bottom-margin;
   padding-top: 20px;
+  // padding-bottom: 50px;
 
   &__content-container {
     @include tablet {
@@ -35,6 +36,11 @@
 
   &__main-heading {
     margin-bottom: 10px;
+  }
+
+  &__hr {
+    @include hr;
+    visibility: hidden;
   }
 
   &__link {

@@ -9,8 +9,17 @@
     "caption": ""
   },
   {
-    "type": "h3",
+    "type": "hr",
     "id": 200,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "",
+    "caption": ""
+  },
+  {
+    "type": "h3",
+    "id": 300,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -19,52 +28,52 @@
   },
   {
     "type": "paragraph",
-    "id": 300,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "In 2008 I graduated from Ryerson University with a degree in New Media. The program focused on concepts connected with emerging technologies and taught practical applications of HTML/CSS, as well as circuit building, and graphical programs like After Effects.",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
     "id": 400,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "My final New Media project was a trucking theme game styled after early graphical adventure games. The project was featured in Ryerson's Nuit Blanche showcase of 2007.",
+    "content": "In 2008 I graduated from Ryerson University with a degree in New Media. The program focused on concepts connected with emerging technologies and practical training in HTML/CSS, as well as circuit building, and media software After Effects, Final Cut Pro, and others.",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
+    "id": 700,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "My final New Media project was a trucking themed game styled after early graphical adventure games. The project was featured in Ryerson's Nuit Blanche showcase of 2007.",
     "caption": ""
   },
   {
     "type": "image_with_text",
-    "id": 700,
+    "id": 800,
     "margin_bottom": "standard",
     "media": "webkinz_jr_ny.jpg",
     "url": "",
-    "content": "My first role in the tech industry was with Webkinz in 2008 (a division of Ganz Studios), at the time a leader in the world of online family entertainment, which gave me an invaluable foundation for working in tech: Participating in Scrums; using a version controlled repository; coordinating with multiple departments (Creative writers, devs, QA, and artists) to produce interactive content; adhering to strict technical standards when delivering assets. At the time, I was coding in ActionScript, the programming language of Flash.",
+    "content": "My first role in the tech industry was with Webkinz (a division of Ganz Studios) in 2008, at the time a leader in the world of online family entertainment, which gave me an invaluable foundation for working in tech: Participating in Scrums; using a version controlled repository; coordinating with multiple departments (Creative writers, devs, QA, and artists) to produce interactive content; adhering to strict specifications when delivering assets. At the time, I was coding in ActionScript, the programming language of Flash.",
     "caption": "My UI design of a Webkinz Jr. Online activity, as seen in The New York Times, May 2009."
   },
   {
     "type": "paragraph",
-    "id": 800,
+    "id": 900,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "My next full time role was with ELL Technologies, an english language software producer, which provided the chance to contribute in the world of education design.",
+    "content": "My next full time role was with ELL Technologies, an english language-learning software producer, which provided the chance to contribute in the world of education design.",
     "caption": ""
   },
   {
-    "type": "image_with_text",
-    "id": 900,
+    "type": "image_with_text_reverse",
+    "id": 1000,
     "margin_bottom": "standard",
     "media": "CDI_video_slide_desktop.png",
     "url": "",
-    "content": "My role at marketing agency Inter-Web was a fast-paced role in which I took a central role in designing, prototyping and writing  spec documents for several eCommerce websites. I created art concepts and wrote HTML/CSS to launch landing pages and e-newsletters. It was largely the positive experiences coding for web which led me to embark on a career based on working with front-end technology.",
+    "content": "At fast-paced marketing agency Inter-Web, I took a central role in designing, prototyping and writing spec documents for several eCommerce websites. I created art concepts and coded landing pages and e-newsletters. It was largely the positive experiences coding for web which led me to embark on a career based on working with front-end technology.",
     "caption": "During my time at a marketing agency, I re-designed e-commerce websites, including Canadian Insulin, shown here."
   },
   {
     "type": "h3",
-    "id": 1000,
+    "id": 1100,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -73,16 +82,16 @@
   },
   {
     "type": "paragraph",
-    "id": 1100,
+    "id": 1200,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "In my spare time, I enjoy digging up facts and personal accounts about the history of computer technology, software and games. I'm an avid reader, as well a frequent badminton player.",
+    "content": "In my spare time, I enjoy digging up facts and personal accounts about the history of computer technology, software and games. I'm an avid reader, and I play badminton.",
     "caption": ""
   },
   {
     "type": "paragraph",
-    "id": 1200,
+    "id": 1300,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -91,7 +100,7 @@
   },
   {
     "type": "h3",
-    "id": 1300,
+    "id": 1400,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -100,7 +109,7 @@
   },
   {
     "type": "h4",
-    "id": 1400,
+    "id": 1500,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -109,16 +118,16 @@
   },
   {
     "type": "paragraph",
-    "id": 1500,
+    "id": 1600,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "Three month diploma program intensive in Front End technologies, including React, SASS, command line Git, accessibility, OAuth, MySQL, as well as server side javascript, Model-view-controller software design pattern, computer networking fundamentals.",
+    "content": "Three month diploma program intensive in Front End technologies, including React, SASS, command line Git, accessibility, OAuth, MySQL, as well as server side JavaScript, Model-view-controller software design pattern, and computer networking fundamentals.",
     "caption": ""
   },
   {
     "type": "h4",
-    "id": 1600,
+    "id": 1700,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
@@ -127,11 +136,11 @@
   },
   {
     "type": "paragraph",
-    "id": 1700,
+    "id": 1800,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "Training in the Principles and history of Design, circuit building, HTML/CSS, and various multimedia software including After Effects, Final Cut Pro, and PhotoShop. Additionally, concepts and theories relating to emerging technology, culture, and art.",
+    "content": "Training in the Principles and history of Design, circuit building, HTML/CSS, and  multimedia software including After Effects, Final Cut Pro, and PhotoShop. Additionally, concepts and theories relating to emerging technology, culture, and art.",
     "caption": ""
   }
  ]

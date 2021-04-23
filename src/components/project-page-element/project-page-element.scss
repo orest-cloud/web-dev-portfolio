@@ -17,6 +17,10 @@
     margin: 20px 0 5px;
   }
 
+  &__hr {
+    @include hr;
+  }
+
   &__code {
     // @include font($mulish, 1.6rem, 400);
     background-color: #1e1e1e;
@@ -32,6 +36,11 @@
       max-height: 290px;
       padding: 10px 20px;
     }
+  }
+
+  &__fine-print {
+    font-size: 1.1rem;
+    margin-bottom: 35px;
   }
 
   &__image {

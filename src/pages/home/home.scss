@@ -25,38 +25,42 @@
   padding-top: 14px;
   
   @include tablet {
-    @include flex(row nowrap, flex-start, flex-start);
+    @include flex(row nowrap, flex-start, center);
   }
 
   @include desktop {
-    @include flex(row nowrap, center, flex-start);
+    @include flex(row nowrap, center, center);
     margin: 0 auto;
     width: $desktop-container-width;
   }
 
-  &__portrait-container {
-    @include tablet {
-      background-color: black;
-      position: relative;
-      width: 175px;
-      height: 397px;
-      transform: skewY(-30deg);
-      overflow: hidden;
-      // z-index: 1;
-    }
+  // &__portrait-container {
+  //   @include tablet {
+  //     background-color: black;
+  //     position: relative;
+  //     width: 175px;
+  //     height: 397px;
+  //     transform: skewY(-30deg);
+  //     overflow: hidden;
+  //     // z-index: 1;
+  //   }
 
-    &:after {
-      content: '';
-      background-image: url('/assets/images/orest_portrait_1.jpg');
-      background-size: cover;
-      background-position:center;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      transform-origin:inherit;
-      transform: skewY(30deg);
-    }
-  }
+  //   &:after {
+  //     content: '';
+  //     background-image: url('/assets/images/orest_portrait_1b.jpg');
+  //     background-size: 220px 500px;
+  //     background-size: cover;
+  //     background-position: center;
+  //     // width: 160%;
+  //     // height: 450px;
+  //     width: 100%;
+  //     height: 100%;
+  //     // height: auto;
+  //     position: absolute;
+  //     transform-origin:inherit;
+  //     transform: skewY(30deg);
+  //   }
+  // }
 
   &__portrait {
     float: left;
@@ -70,18 +74,23 @@
       // max-width: 236px;
       
       // transform: skewY(30deg);
-
-
     }
-    
-    @include desktop {
-      margin-right: 0;
+  }
+
+  &__portrait2 {
+    display: none;
+
+    @include tablet {
+      // filter: grayscale(100%);
+      display: inline-block;
+      margin-right: 30px;
+      max-width: 175px;
+      clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
     }
 
-    }
+  }
 
   &__text-container {
-
     @include tablet {
       width: 742px;
     }
@@ -98,7 +107,7 @@
   // padding: $mobile-section-vertical-margin $mobile-margin 50px;
   @include responsive-side-margins;
   @include responsive-top-margin;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   background-color: $bg-fill-1;
   
   @include tablet {
@@ -117,7 +126,7 @@
     
     @include desktop {
       margin: 0 auto;
-      top: -50px;
+      top: -85px;
       width: $desktop-container-width;
       @include flex(row nowrap, space-between, flex-start);
     }

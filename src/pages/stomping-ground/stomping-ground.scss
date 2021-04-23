@@ -24,6 +24,10 @@
     margin-bottom: 10px;
   }
 
+  &__hr {
+    @include hr;
+  }
+
   &__heading {
 
     &--inline {

@@ -15,7 +15,7 @@
     "media": "StompingGround_Home_1.jpg",
     "url": "",
     "content": "Stomping Ground home page",
-    "caption": "The Stomping Ground home page."
+    "caption": "The Stomping Ground home page"
   },
   {
     "type": "paragraph",
@@ -23,7 +23,7 @@
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "Stomping Ground is a React app I created to demonstrate my competency in building a Model-view-controller* patterned fully responsive web application. The React side fetches real estate data through http GET requests to a REST API server I wrote in Express.js.",
+    "content": "Stomping Ground is a React app which allows users to view pertinent data in order to evaluate neighborhoods they are interested in moving to. ",
     "caption": ""
   },
   {
@@ -36,24 +36,6 @@
     "caption": ""
   },
   {
-    "type": "paragraph",
-    "id": 500,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Note: Due to the prohibitive costs of subscribing to a live real estate listing API, the property data displayed in Stomping Ground is static rather than live, and served from my own REST API. It is meant as a concept demonstration rather than an actual resource.",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 600,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "*Model-view-controller refers to a software design pattern for developing user interfaces which guides the programming logic to be segmented into three parts: the model (the backend data), the view (pertinent data rendered for the user to see), and the controller (code that receives input, validates, and manipulates and retrieves data from the model).",
-    "caption": ""
-  },
-  {
     "type": "image",
     "id": 700,
     "margin_bottom": "standard",
@@ -61,6 +43,15 @@
     "url": "",
     "content": "Property listings",
     "caption": "Neighborhood page featuring property listings."
+  },
+  {
+    "type": "fineprint",
+    "id": 500,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "Note: Due to the prohibitive costs of subscribing to a live real estate listing API, the property data displayed in Stomping Ground is static rather than live, and served from my own REST API. It is meant as a concept demonstration rather than an actual resource.",
+    "caption": ""
   },
   {
     "type": "h3",
@@ -127,11 +118,20 @@
   },
   {
     "type": "paragraph",
+    "id": 600,
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "The React \"client side\" fetches real estate data through HTTP GET requests to a REST API server I wrote in popular back end framework Express.js.",
+    "caption": ""
+  },
+  {
+    "type": "paragraph",
     "id": 1500,
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "Below is a sample of my server side JavaScript programming, written in popular back end framework Express.js. These functions fetch live photo data from Google Maps Places, and passes that data to the React client side, in response to an Axios GET request.",
+    "content": "Below is a sample of my server side JavaScript programming. These functions fetch live photo data from Google Maps Places, and passes that data to the React client side, in response to an Axios GET request.",
     "caption": ""
   },
   {
@@ -140,7 +140,7 @@
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "There are two main benefits to the server doing this rather than the client: 1. It avoids CORS errors that would be caused by the client making requests from numerous servers. 2. It allows my Google API key, used to access the Google Maps data from Google, stored and used on the server side and therefore more secure.",
+    "content": "There are two main benefits to the server fetching this data rather than the client: 1. It avoids CORS errors that would be caused by the client making requests from multiple servers. 2. It allows my Google API key, used to access the Google Maps data from Google, to be stored and used on the server side, where it cannot be accessed by the user.",
     "caption": ""
   },
   {
@@ -167,7 +167,7 @@
     "margin_bottom": "standard",
     "media": "",
     "url": "",
-    "content": "It passes a street address and neighborhood ID in the request, and will receive back from the server property listings and Google Maps photo data in base64 format.",
+    "content": "The client passes a street address and neighborhood ID in the request to the server, and will receive back property listings and Google Maps photo data in base64 format.",
     "caption": ""
   },
   {

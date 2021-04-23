@@ -29,6 +29,8 @@ export default function StompingGround() {
           <div className="stomping-ground__content-container">
             <h2 className="stomping-ground__main-heading">Stomping Ground, a React App</h2>
 
+            <div className="stomping-ground__hr" />
+
             <div className="stomping-ground__skills-section">
               <SkillsGroup heading="Tools Used" displaySkills={['React', 'Express.js', 'Illustrator']} />
 
