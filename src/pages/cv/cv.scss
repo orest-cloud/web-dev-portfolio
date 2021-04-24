@@ -17,9 +17,9 @@
 .cv {
   // background-color: lightgreen;
   @include responsive-side-margins;
-  @include responsive-bottom-margin;
+  // @include responsive-bottom-margin;
   padding-top: 20px;
-  // padding-bottom: 50px;
+  padding-bottom: $page-bottom-margin;
 
   &__content-container {
     @include tablet {

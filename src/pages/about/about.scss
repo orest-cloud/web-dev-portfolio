@@ -5,7 +5,8 @@
 
 .about {
   @include responsive-side-margins;
-  @include responsive-bottom-margin;
+  // @include responsive-bottom-margin;
+  padding-bottom: $page-bottom-margin;
   padding-top: 20px;
 
   &__content-container {

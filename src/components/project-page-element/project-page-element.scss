@@ -32,7 +32,7 @@
     max-height: 350px;
     
     @include tablet {
-      @include font($mulish, 1.6rem, 400);
+      @include font($mulish, 1.4rem, 400);
       max-height: 290px;
       padding: 10px 20px;
     }

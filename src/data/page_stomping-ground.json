@@ -1,13 +1,5 @@
 [
-  {
-    "type": "text-with-link",
-    "id": 100,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "https://stompingground.herokuapp.com/",
-    "content": "See the website in action at",
-    "caption": ""
-  },
+  
   {
     "type": "image",
     "id": 200,

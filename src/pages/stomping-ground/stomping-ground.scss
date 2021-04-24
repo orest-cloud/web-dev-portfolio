@@ -6,8 +6,9 @@
 .stomping-ground {
   // @include inset-section-margins;
   @include responsive-side-margins;
-  @include responsive-bottom-margin;
+  // @include responsive-bottom-margin;
   padding-top: 20px;
+  padding-bottom: $page-bottom-margin;
 
   &__content-container {
     @include tablet {
