@@ -16,11 +16,6 @@ import './project-page-element.scss';
 export default function ProjectPageElement({ type, media, url, content, caption }) {
   const [codeContent, setCodeContent] = useState("");
 
-  // useEffect(() => {
-  //   // Update the document title using the browser API
-  //   renderElement = <pre className="project-page-element__code">{codeContent}</pre>;
-  // });
-
   let captionElement = null;
   let renderElement = null;
 
@@ -87,9 +82,9 @@ export default function ProjectPageElement({ type, media, url, content, caption 
     renderElement = <p className="project-page-element__paragraph">{content}</p>;
   }
   else if (type === "text-with-link") {
-    renderElement = <p className="project-page-element__paragraph"><b>
+    renderElement = <div className="project-page-element__text-with-link"><p className="project-page-element__paragraph"><b>
     {content} <a href={url} rel="noreferrer" target="_blank" className="project-page-element__text-link">{url}</a>
-  </b></p>;
+  </b></p></div>;
   }
   else  {
     renderElement = "Unrecognized type";
