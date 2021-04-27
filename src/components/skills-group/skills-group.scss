@@ -9,6 +9,11 @@
 
   &__heading {
     padding-bottom: 4px;
+    
+    @include tablet {
+      display: inline;
+      margin-right: 15px;
+    }
   }
 
 }

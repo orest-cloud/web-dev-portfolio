@@ -19,6 +19,12 @@ export default function ProjectPageElement({ type, media, url, content, caption 
   let captionElement = null;
   let renderElement = null;
 
+  // Include the caption, if there is one (for image elements)
+  if (caption) {
+    captionElement = <figcaption className="project-page-element__image-caption">{caption}</figcaption>;
+  }
+
+
   if (type === "code") {
     renderElement = <pre className="project-page-element__code"><code>{codeContent}</code></pre>;
 
@@ -52,29 +58,25 @@ export default function ProjectPageElement({ type, media, url, content, caption 
     renderElement = <div className="project-page-element__hr" />;
   }
   else if (type === "image") {
-    // Include the caption, if there is one
-    if (caption) {
-      captionElement = <figcaption className="project-page-element__image-caption">{caption}</figcaption>;
-    }
-
     renderElement = <figure className='project-page-element__image-container'><img src={`/assets/images/${media}`} alt={content} className="project-page-element__image"/>{captionElement}</figure>;
   }
 
-  else if (type === "image_with_text") {
-    // Include the caption, if there is one
-    if (caption) {
-      captionElement = <figcaption className="project-page-element__image-caption">{caption}</figcaption>;
-    }
+  else if (type === "image-double") {
+    renderElement =
+    <figure className='project-page-element__double-image'>
+      <div className="project-page-element__double-image-container">
+        <img src={`/assets/images/${media[0]}`} alt={content} className="project-page-element__double-image-image project-page-element__double-image-image--first"/>
+        <img src={`/assets/images/${media[1]}`} alt={content} className="project-page-element__double-image-image"/>
+      </div>
+      {captionElement}
+    </figure>;
+  }
 
+  else if (type === "image_with_text") {
     renderElement = <div className="image-with-text"><figure className='image-with-text__figure'><img src={`/assets/images/${media}`} alt={content} className="image-with-text__image"/>{captionElement}</figure><p className="image-with-text__paragraph">{content}</p></div>;
   }
 
   else if (type === "image_with_text_reverse") {
-    // Include the caption, if there is one
-    if (caption) {
-      captionElement = <figcaption className="project-page-element__image-caption">{caption}</figcaption>;
-    }
-
     renderElement = <div className="image-with-text"><p className="image-with-text__paragraph">{content}</p><figure className='image-with-text__figure'><img src={`/assets/images/${media}`} alt={content} className="image-with-text__image"/>{captionElement}</figure></div>;
   }  
 

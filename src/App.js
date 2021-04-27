@@ -11,7 +11,8 @@ import About from './pages/about/about.jsx';
 import Home from './pages/home/home.jsx';
 import CV from './pages/cv/cv.jsx';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top.jsx';
-import StompingGround from './pages/stomping-ground/stomping-ground.jsx';
+// import StompingGround from './pages/stomping-ground/stomping-ground.jsx';
+import ProjectPage from './pages/project-page/project-page.jsx';
 
 // Initialize Google Analytics
 ReactGA.initialize('UA-000000-01');
@@ -26,7 +27,7 @@ export default function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/cv" exact component={CV} />
-        <Route path="/projects/stomping-ground" exact component={StompingGround} />
+        <Route path="/projects/:project_ID" exact component={ProjectPage} />
       </Switch>
     </BrowserRouter >
 

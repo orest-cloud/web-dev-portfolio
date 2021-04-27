@@ -1,0 +1,209 @@
+[
+  {
+    "type": "fineprint",
+    "id": "300",
+    "margin_bottom": "standard",
+    "media": "",
+    "url": "",
+    "content": "Please note: Viewing of this website is blocked from Canadian IP's. A USA proxy is required.",
+    "caption": ""
+    },
+  {
+  "type": "image",
+  "id": "200",
+  "margin_bottom": "standard",
+  "media": "cdi/cdi_homepage_1.png",
+  "url": "",
+  "content": "CDI homepage",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "400",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "Canadian Insulin sells low cost Insulin from Canada (where pharma prices are more regulated) to Americans and their pets.",
+  "caption": ""
+  },
+  {
+  "type": "h3",
+  "id": "500",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "Situation",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "600",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "CDI (Canadian Insulin) was an existing e-commerce website. They were making conversions but their monthly revenue growth was slow.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "700",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "The responsiveness of the website was poor. The style and interface of the website was outmoded and difficult to use. It featured cheesy stock images of call centre representatives, and, in an industry where customers are hyper-vigilant of scams, did not convey trustworthiness.",
+  "caption": ""
+  },
+  {
+  "type": "image-double",
+  "id": "800",
+  "margin_bottom": "standard",
+  "media": ["cdi/cdi_old-site_1.png", "cdi/cdi_old-site_2.png"],
+  "url": "",
+  "content": "The previous state of the CDI homepage",
+  "caption": "The previous state of the CDI homepage"
+  },
+  {
+  "type": "h3",
+  "id": "900",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "Task",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "1000",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "Our agency was hired by the client, the CDI site owner, to re-model the website to add a shopping cart functionality with the goal of increasing traffic, conversions and site ranking, and improving useability and overall aesthetic.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "1100",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "My role was to design the new website, as well as display ads and a direct mail campaign. I also needed to write detailed specifications documents for our development team to use in creating the front end website and back-end architecture.",
+  "caption": ""
+  },
+  {
+  "type": "h3",
+  "id": "1200",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "Action",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "1300",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "I started by collecting feature requirements from all stakeholders, and researching the target audience. I coordinated with an Account Manager in planning functionality and site flow. We also spoke to call centre representatives to get a feel for current customers' biggest frustrations.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "1400",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "We installed Google Analytics on the existing website and after a time, realized that organic traffic was landing on the website but did not result in conversions due to the fact that the visitors did not have a ready Insulin prescription at the time. In our plans, we outlines an email form which, when used, would send email reminder alerts at a later time, and also optionally sign the user up for an e-newsletter.",
+  "caption": ""
+  },
+  {
+  "type": "image-double",
+  "id": "1500",
+  "margin_bottom": "standard",
+  "media": ["cdi/cdi_iphone_homepage.png", "cdi/cdi_iphone_404.png"],
+  "url": "",
+  "content": "Mobile view of the home and 404 pages.",
+  "caption": "Mobile view of the home and 404 pages."
+  },
+  {
+  "type": "paragraph",
+  "id": "1600",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "In my design, I decided the existing user base was significant, and I wanted to preserve the brand equity and best parts of the existing branding, including the turquoise colour palette, for the new website and marketing campaigns. I toned up the logo using its existing font.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "1700",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "I created wireframes using Balsamiq, and consulted with the Account Manager and Marketing Manager regularly to fine tune the site flow. The client was consulted semi-regularly, after major sprints.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "1800",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "In the next stage, I create a high fidelity prototype using Illustrator, and published it to InVision. I designed the UI of every planned page. This would become the visual reference for the development team building the website, while my specifications document outlined details like when and how the user would be able to comment leave ratings, how the Account Details pages functioned, etc.",
+  "caption": ""
+  },
+  {
+  "type": "image",
+  "id": "1900",
+  "margin_bottom": "standard",
+  "media": "cdi/cdi_product_page_desktop.png",
+  "url": "",
+  "content": "The new and improved product page.",
+  "caption": "The new and improved product page."
+  },
+  {
+  "type": "h3",
+  "id": "2000",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "Result",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "2100",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "The site re-design went live in July 2018. During my time at the agency, revenue and checkout increased every month since the re-design. The site was fully responsive, and the cart checkout process was made easy to navigate.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "2200",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "Within three months:\n-Average active users increased by 40%\n-Add to Cart conversion goal increased from 4.52% to 15.22%\n-Visits to the main product category pages increased by 20%",
+  "caption": ""
+  },
+  {
+  "type": "image",
+  "id": "2300",
+  "margin_bottom": "standard",
+  "media": "cdi/cdi_place_order-Order_summary.png",
+  "url": "",
+  "content": "The new multi-step checkout screen.",
+  "caption": "The new multi-step checkout screen."
+  },
+  {
+  "type": "paragraph",
+  "id": "2400",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "The client was happy with both the functional and aesthetic improvements of their brand, website, and marketing campaign. I continued to work with the client, creating more display banners, e-newsletter, and direct mail campaign fliers and postcards.",
+  "caption": ""
+  }
+  ]

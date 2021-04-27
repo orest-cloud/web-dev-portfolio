@@ -40,12 +40,12 @@
 
   &__fine-print {
     font-size: 1.1rem;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
   }
 
   &__image {
     @include image-with-border;
-    margin-top: 30px;
+    margin-top: 20px;
 
     &-container {
       margin-bottom: 30px;
@@ -53,6 +53,32 @@
       // @include tablet {
       //   margin-bottom: 50px;
       // }
+    }
+  }
+
+  &__double-image {
+    padding-top: 15px;
+    margin-bottom: 25px;
+
+    &-container {
+      @include tablet {
+        @include flex(row nowrap, space-between, flex-start);
+      }
+    }
+
+    &-image {
+      @include image-with-border;
+      
+      @include tablet {
+        width: 49%;
+      }
+
+      &--first {
+        margin-bottom: 15px;
+        @include tablet {
+          margin-bottom: 0;
+        }
+      }
     }
   }
 

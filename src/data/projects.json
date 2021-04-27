@@ -5,7 +5,7 @@
   "heading": "Stomping Ground, a React app",
   "sub_heading": "A real-estate app for investigating neighborhoods and property listings",
   "image": "project_stomping-ground.png",
-  "tools": "Express.js, Illustrator, React",
+  "tools": ["Express.js", "Illustrator", "React"],
   "libraries": "Axios, CORS, Nodemon, UUID"
   },
   {
@@ -14,7 +14,7 @@
   "heading": "Canadian Insulin Re-Design",
   "sub_heading": "A complete e-commerce UI overhaul",
   "image": "project_cdi.png",
-  "tools": "InVision, Illustrator, Photoshop",
+  "tools": ["InVision", "Illustrator", "Photoshop"],
   "libraries": ""
   },
   {
@@ -23,7 +23,7 @@
   "heading": "Medical Spa RX Landing Page",
   "sub_heading": "A hand-coded e-commerce landing page",
   "image": "project_msrx.png",
-  "tools": "HTML5, CSS3, InVision, Illustrator, Photoshop",
+  "tools": ["HTML5", "CSS3", "InVision", "Illustrator", "Photoshop"],
   "libraries": ""
   },
   {
@@ -32,7 +32,7 @@
   "heading": "Webkinz Jr. Sorting Activity",
   "sub_heading": "An educational online activity for children",
   "image": "project_webkinz-jr.png",
-  "tools": "Animate, Illustrator, Photoshop",
+  "tools": ["Animate", "Illustrator", "Photoshop"],
   "libraries": ""
   }
   ]
