@@ -15,7 +15,7 @@
   &__content-container {
     @include tablet {
       margin: 0 auto;
-      max-width: $page-width-desktop;
+      max-width: $page-width-desktop-wide;
     }
   }
 

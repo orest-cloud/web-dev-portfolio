@@ -3,7 +3,7 @@ import React from 'react';
 
 import './skill-tag.scss';
 
-export default function SkillTag({ id, icon, link, name }) {
+export default function SkillTag({ icon, name }) {
   return (
     // <Link id={id} className="skill-tag__link" to={`projects/${link}`}>
       <div className="skill-tag">

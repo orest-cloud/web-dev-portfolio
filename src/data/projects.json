@@ -9,21 +9,21 @@
   "libraries": "Axios, CORS, Nodemon, UUID"
   },
   {
+    "name": "msrx",
+    "id": "300",
+    "heading": "Medical Spa RX Landing Page",
+    "sub_heading": "A hand-coded e-commerce landing page",
+    "image": "project_msrx.png",
+    "tools": ["HTML5", "CSS3", "InVision", "Photoshop"],
+    "libraries": ""
+    },
+  {
   "name": "cdi",
   "id": "200",
   "heading": "Canadian Insulin Re-Design",
   "sub_heading": "A complete e-commerce UI overhaul",
   "image": "project_cdi.png",
   "tools": ["Experience Design", "Illustrator", "Photoshop"],
-  "libraries": ""
-  },
-  {
-  "name": "msrx",
-  "id": "300",
-  "heading": "Medical Spa RX Landing Page",
-  "sub_heading": "A hand-coded e-commerce landing page",
-  "image": "project_msrx.png",
-  "tools": ["HTML5", "CSS3", "InVision", "Photoshop"],
   "libraries": ""
   },
   {

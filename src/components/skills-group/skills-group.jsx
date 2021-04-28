@@ -30,7 +30,7 @@ export default function SkillsGroup( {displaySkills, heading} ) {
       {headingElement}
 
       { filteredData.map(skillsData => {
-        return (<SkillTag key={skillsData.id} id={skillsData.id} name={skillsData.name} icon={skillsData.icon} link={skillsData.link} />)
+        return (<SkillTag key={`skill-${skillsData.id}`} id={skillsData.id} name={skillsData.name} icon={skillsData.icon} link={skillsData.link} />)
       })}
 
     </div>

@@ -73,7 +73,7 @@ export default function ProjectPage() {
 
             {pageData.map(pageData => {
               return (
-                <ProjectPageElement key={pageData.id} {...pageData} />
+                <ProjectPageElement key={`${currentProject.name}-${pageData.id}`} {...pageData} />
              )})}
 
 

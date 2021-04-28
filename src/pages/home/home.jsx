@@ -20,6 +20,7 @@ import './home.scss';
 
 export default function Home() {
   document.title = "Home | Orest's Web Development Portfolio";
+  document.body.style = 'background: #F2F2F2';
 
   return (
     <>

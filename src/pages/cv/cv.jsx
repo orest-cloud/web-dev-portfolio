@@ -3,6 +3,7 @@ import React from 'react';
 
 // Components 
 import Header from '../../components/header/header';
+import ProjectsGrid from '../../components/projects-grid/projects-grid';
 import Footer from '../../components/footer/footer';
 
 // Images 
@@ -35,6 +36,8 @@ export default class CV extends React.Component {
             
           </div>
         </section>
+
+        <ProjectsGrid heading="Projects" exclude="" />
 
       <Footer />
     </>
