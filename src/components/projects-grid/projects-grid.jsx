@@ -16,20 +16,21 @@ export default function ProjectsGrid( {heading, exclude} ) {
 
   return (
 
-    <div className="projects-grid">
+    <section className="projects-grid">
 
-      <div className="project-page__hr" />
-      
-      <h2 className="projects-grid__heading">{heading}</h2>
+      <div className="projects-grid__content-container">
 
-      <div className="projects-grid__container">
+        <h2 className="projects-grid__heading">{heading}</h2>
 
-        { filteredData.map(data => {
-          return (<ProjectsGridItem key={data.id} name={data.name} heading={data.heading} sub_heading={data.sub_heading} image={data.image} tools={data.tools} />)
-        })}
+        <div className="projects-grid__container">
 
+          { filteredData.map(data => {
+            return (<ProjectsGridItem key={data.id} name={data.name} heading={data.heading} sub_heading={data.sub_heading} image={data.image} tools={data.tools} />)
+          })}
+
+        </div>
       </div>
 
-    </div>
+    </section>
   )
 }

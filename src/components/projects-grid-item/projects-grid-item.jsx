@@ -1,7 +1,8 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 // Components
-// import ProjectsGridItem from '../projects-grid-item-item/projects-grid-item-item';
+import SkillsGroup from '../skills-group/skills-group';
 
 // Styles
 import './projects-grid-item.scss';
@@ -16,13 +17,22 @@ export default function ProjectsGridItem( {name, heading, sub_heading, image, to
 
   return (
     <div className="projects-grid-item">
-      
-      <img src={`/assets/images/${image}`} alt={heading} className="projects-grid-item__image"/>
+      <div className="projects-grid-item__stripe">
+      <Link to={`/projects/${name}`} className="projects-grid-item-image-link">
+        <img src={`/assets/images/${image}`} alt={heading} className="projects-grid-item__image"/>
+      </Link>
 
-      <h3 className="projects-grid-item__heading">{heading}</h3>
-      <h4 className="projects-grid-item__sub-heading">{sub_heading}</h4>
+      <Link to={`/projects/${name}`} className="projects-grid-item__link">
+        <h4 className="projects-grid-item__heading">{heading}</h4>
+      </Link>
 
+      <div className="projects-grid-item__skills">
+          <SkillsGroup heading="" displaySkills={tools} />     
+      </div>
 
+      <h5 className="projects-grid-item__sub-heading">{sub_heading}</h5>
+
+      </div>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import React from 'react';
 import Header from '../../components/header/header';
 import GhostButton from '../../components/ghost-button/ghost-button';
 import Skills from '../../components/skills/skills';
+import ProjectsGrid from '../../components/projects-grid/projects-grid';
 import ProjectShowcase from '../../components/project-showcase/project-showcase';
 import Footer from '../../components/footer/footer';
 
@@ -40,7 +41,7 @@ export default function Home() {
           The keystones of my practice are reliability, attention to detail, and continuous learning.
           </p>
 
-          <GhostButton cta="Read more" url="/about" />
+          <GhostButton cta="View My CV" url="/cv" />
           
         </div>
       </section>
@@ -52,6 +53,10 @@ export default function Home() {
           <ProjectShowcase />
         </div>
       </section>
+
+      <div className="home__projects-section">
+        <ProjectsGrid heading="Projects" exclude="stomping-ground" />
+      </div>
 
       <Footer />
 

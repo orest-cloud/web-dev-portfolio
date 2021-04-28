@@ -8,12 +8,12 @@
   @include responsive-side-margins;
   // @include responsive-bottom-margin;
   padding-top: 20px;
-  padding-bottom: $page-bottom-margin;
+  padding-bottom: 35px;
 
   &__content-container {
     @include tablet {
       margin: 0 auto;
-      max-width: 800px;
+      max-width: $page-width-desktop;
     }
   }
 

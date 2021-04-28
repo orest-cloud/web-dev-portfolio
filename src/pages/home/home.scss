@@ -15,6 +15,13 @@
       padding-bottom: 50px;
     }
   }
+
+  &__projects-section {
+    @include tablet {
+      position: relative;
+      top: -70px;
+    }
+  }  
 }
 
 .home-bio {
@@ -30,7 +37,7 @@
   @include desktop {
     @include flex(row nowrap, center, center);
     margin: 0 auto;
-    width: $desktop-container-width;
+    width: $page-width-desktop-wide;
   }
 
   // &__portrait-container {
@@ -128,7 +135,7 @@
     @include desktop {
       margin: 0 auto;
       top: -85px;
-      width: $desktop-container-width;
+      width: $page-width-desktop-wide;
       @include flex(row nowrap, space-between, flex-start);
     }
   }

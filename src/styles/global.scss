@@ -43,18 +43,18 @@ h5 {
     color: $text-grey;
     font-family: $heading-font;
     font-size: 1.7rem;
-    // line-height: 21px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+    line-height: 21px;
+    font-weight: 600;
+    // letter-spacing: 0.5px;
 }
 
 h4 {
     color: $text-grey;
     font-family: $heading-font;
     font-size: 1.9rem;
-    // line-height: 21px;
+    // line-height: 23px;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    // letter-spacing: 0.5px;
 
     // @include desktop {
     //     font-size: 2.2rem;
@@ -116,7 +116,7 @@ figcaption {
 //------------------------------
 // Remove default styling
 //------------------------------
-h1, h2, h3, h4, hr, ul, li, img, p, label, input, button, caption, figure {
+h1, h2, h3, h4, h5, hr, ul, li, img, p, label, input, button, caption, figure {
     margin: 0;
     padding: 0;
 }

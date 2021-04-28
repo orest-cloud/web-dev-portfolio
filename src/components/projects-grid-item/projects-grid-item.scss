@@ -4,24 +4,50 @@
 
 
 .projects-grid-item {
-
-  border: 2px $blue-1 solid;
+  background-color: $white;
+  border: 3px $grey-2 solid;
 
   // max-width: 310px;
   // padding: 10px;
 
-  // margin-bottom: 10px;
+  margin-bottom: 20px;
+
+  @include tablet {
+    margin-bottom: unset;
+  }
 
   &__heading {
-    margin-bottom: 8px;
+    color: $blue-1;
+    padding: 0 8px;
+    margin: 5px 0 8px;
+  }
+
+  &__skills {
+    padding: 0 8px;
   }
   
   &__sub-heading {
-    margin-bottom: 8px;
+    color: $black;
+    padding: 0 8px;
+    margin-bottom: 25px;
   }
 
   &__image {
-    @include image-with-border;
+    // @include image-with-border;
+    opacity: 1;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__stripe {
+    border-bottom: 3px $blue-1 solid;
+    height: 100%;
   }
 
 }

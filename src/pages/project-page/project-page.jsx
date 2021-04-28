@@ -76,10 +76,11 @@ export default function ProjectPage() {
                 <ProjectPageElement key={pageData.id} {...pageData} />
              )})}
 
-             <ProjectsGrid heading="Other Projects" exclude={currentProject.name} />
 
           </div>
         </section>
+
+        <ProjectsGrid heading="Other Projects" exclude={currentProject.name} />
 
       <Footer />
     </>
