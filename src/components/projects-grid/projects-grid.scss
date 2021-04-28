@@ -1,0 +1,28 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+
+.projects-grid {
+
+  margin: 60px 0 10px;
+
+  &__heading {
+    margin-bottom: 10px;
+  }
+
+  &__container {
+
+    @include tablet {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      // grid-template-rows: 1fr 1fr 1fr;
+      gap: 14px 14px;
+      // grid-template-areas:
+      //   ". . ."
+      //   ". . ."
+      //   ". . .";
+    }
+  }
+
+}

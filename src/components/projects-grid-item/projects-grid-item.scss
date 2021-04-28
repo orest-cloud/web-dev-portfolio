@@ -1,0 +1,27 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+
+.projects-grid-item {
+
+  border: 2px $blue-1 solid;
+
+  // max-width: 310px;
+  // padding: 10px;
+
+  // margin-bottom: 10px;
+
+  &__heading {
+    margin-bottom: 8px;
+  }
+  
+  &__sub-heading {
+    margin-bottom: 8px;
+  }
+
+  &__image {
+    @include image-with-border;
+  }
+
+}

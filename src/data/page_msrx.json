@@ -1,0 +1,101 @@
+[
+  {
+  "type": "image",
+  "id": "100",
+  "margin_bottom": "standard",
+  "media": "msrx/landing_page_Desktop.png",
+  "url": "",
+  "content": "My completed design of the MSRX landing page",
+  "caption": "The completed landing page on desktop"
+  },
+  {
+  "type": "paragraph",
+  "id": "200",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "In September 2019, an Account Manager within my agency approached me with a project: Creating a landing page with the goal of generating phone leads and driving traffic to an e-commerce website.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "300",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "The client specialized in aesthetic and medical supplies. I was familiar with the client, having designed and written specifications for the customer reviews feature we added to their existing website, and photographed and re-touched their products.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "400",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "After a preliminary brainstorming meeting, I was sent a document containing requirements and copy to include, with license to trim the copy if it proved cumbersome. The design and imagery was entirely up to me.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "500",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "The client's brand was deep oceanic hues, evoking a slick, sophisticated spa atmosphere. The logo included a cyan octagonal icon with serif font.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "600",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "After conferring on a rough wireframe with the Account Manager, I began designing the mobile view of the page using Illustrator, as well as hunting for stock imagery and icons.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "700",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "Outside of digital design work, I gathered some of the client's most popular boxed products which we had stored in the building, took a \"group photo\", and then re-touched it and masked out the background. This would be the secondary image, making obvious to visitors what the company was offering.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "800",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "I designed three versions of the desktop view, each showcasing different background imagery. I focused on making the elements most relevent to our goal hierarchically prominent. I shared my designs with stakeholders using InVision.",
+  "caption": ""
+  },
+  {
+  "type": "phone-scroll",
+  "id": "900",
+  "margin_bottom": "standard",
+  "media": "msrx/landing_page_Mobile.png",
+  "url": "",
+  "content": "Scroll through the mobile version",
+  "caption": "Use your mouse wheel or swipe to scroll through the mobile view"
+  },
+  {
+  "type": "paragraph",
+  "id": "1000",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "After revising based on some minor Account Manager feedback, I optimized my image assets for file size and coded the landing page in HTML/CSS.",
+  "caption": ""
+  },
+  {
+  "type": "paragraph",
+  "id": "1100",
+  "margin_bottom": "standard",
+  "media": "",
+  "url": "",
+  "content": "While I don't have the data on its ultimate performance, I am happy with how I captured the essence of the website and used the best parts of it to play a new, yet reminiscent tune. Stakeholders were happy with the result, and the fact that the mobile first approach catered to what we knew about the majority of site traffic being on mobile devices.",
+  "caption": ""
+  }
+  ]

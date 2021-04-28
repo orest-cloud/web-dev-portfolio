@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 
+// Components
+import PhoneScroll from '../phone-scroll/phone-scroll';
+
 // Styles
 import './project-page-element.scss';
 // import { useState } from 'react';
@@ -45,6 +48,9 @@ export default function ProjectPageElement({ type, media, url, content, caption 
   else if (type === "fineprint") {
     renderElement = <p className="project-page-element__fine-print">{content}</p>;
   }
+  else if (type === "fineprint-red") {
+    renderElement = <p className="project-page-element__fine-print project-page-element__fine-print--red">{content}</p>;
+  }
   else if (type === "h2") {
     renderElement = <h2 className="project-page-element__main-heading">{content}</h2>;
   }
@@ -83,6 +89,9 @@ export default function ProjectPageElement({ type, media, url, content, caption 
   else if (type === "paragraph") {
     renderElement = <p className="project-page-element__paragraph">{content}</p>;
   }
+  else if (type === "phone-scroll") {
+    renderElement = <PhoneScroll media={media} title={content} caption={caption} />;
+  }  
   else if (type === "text-with-link") {
     renderElement = <div className="project-page-element__text-with-link"><p className="project-page-element__paragraph"><b>
     {content} <a href={url} rel="noreferrer" target="_blank" className="project-page-element__text-link">{url}</a>

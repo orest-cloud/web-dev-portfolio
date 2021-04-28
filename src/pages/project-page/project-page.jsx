@@ -7,6 +7,7 @@ import Header from '../../components/header/header';
 // import CircleButton from '../../components/circle-button/circle-button';
 import SkillsGroup from '../../components/skills-group/skills-group';
 import ProjectPageElement from '../../components/project-page-element/project-page-element';
+import ProjectsGrid from '../../components/projects-grid/projects-grid';
 import Footer from '../../components/footer/footer';
 
 // Images 
@@ -74,6 +75,8 @@ export default function ProjectPage() {
               return (
                 <ProjectPageElement key={pageData.id} {...pageData} />
              )})}
+
+             <ProjectsGrid heading="Other Projects" exclude={currentProject.name} />
 
           </div>
         </section>

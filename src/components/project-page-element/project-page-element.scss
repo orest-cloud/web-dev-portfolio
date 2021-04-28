@@ -39,8 +39,13 @@
   }
 
   &__fine-print {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     margin-bottom: 15px;
+    
+    &--red {
+      color: orangered;
+    }
   }
 
   &__image {

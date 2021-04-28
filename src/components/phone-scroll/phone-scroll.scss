@@ -1,0 +1,60 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+.phone-scroll {
+  display: none;
+  
+  @include tablet {
+    display: block;
+    margin: 20px 0;
+    height: 872px;
+    background-image: url(../../assets/images/phone.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+  }
+  
+
+  &__container {
+    // position: relative;
+    @include flex(row nowrap, center, center);
+
+    // height: 872px;
+    height: 630px;
+    // overflow: hidden;
+  }
+
+  &__image-container {
+    width: 359px;
+    height: 630px;
+    // overflows-y:scroll;
+    
+  }
+
+  &__text {
+    display: none;
+
+    @include tablet {
+      display: block;
+      font-weight: 700;
+      text-align: center;
+      margin: 30px 0 15px;
+      color: orangered;
+    }
+    
+  }
+
+  &__mobile-image {
+    @include image-with-border;
+    margin: 20px 0;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+}
+
+
+
