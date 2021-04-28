@@ -20,10 +20,10 @@ import './home.scss';
 
 export default function Home() {
   document.title = "Home | Orest's Web Development Portfolio";
-  document.body.style = 'background: #F2F2F2';
+  // document.body.style = 'background: #F2F2F2';
 
   return (
-    <>
+    <div className="home__grey-background">
       <div className="home__top-container">
       <Header mode="night" />
 
@@ -61,6 +61,6 @@ export default function Home() {
 
       <Footer />
 
-    </>
+    </div>
   )
 }    

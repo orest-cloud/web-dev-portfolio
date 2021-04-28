@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 
 // Components
+import ImageGrid from '../image-grid/image-grid';
 import PhoneScroll from '../phone-scroll/phone-scroll';
 
 // Styles
@@ -16,7 +17,7 @@ import './project-page-element.scss';
 // const hljs = require('highlight.js/lib/core');
 // hljs.registerLanguage('javascript', require('highlight.js/lib/languages/xml'));
 
-export default function ProjectPageElement({ type, media, url, content, caption }) {
+export default function ProjectPageElement({ type, media, url, content, caption, columns }) {
   const [codeContent, setCodeContent] = useState("");
 
   let captionElement = null;
@@ -84,7 +85,11 @@ export default function ProjectPageElement({ type, media, url, content, caption 
 
   else if (type === "image_with_text_reverse") {
     renderElement = <div className="image-with-text"><p className="image-with-text__paragraph">{content}</p><figure className='image-with-text__figure'><img src={`/assets/images/${media}`} alt={content} className="image-with-text__image"/>{captionElement}</figure></div>;
-  }  
+  }
+
+  else if (type === "image-grid") {
+    renderElement = <ImageGrid imageData={media} alt={content} columns={columns} />;
+  }    
 
   else if (type === "paragraph") {
     renderElement = <p className="project-page-element__paragraph">{content}</p>;

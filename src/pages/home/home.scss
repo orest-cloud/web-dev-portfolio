@@ -5,6 +5,11 @@
 
 
 .home {
+
+  &__grey-background {
+    background-color: $bg-fill-1;
+  }
+
   &__top-container {
     // background-image: linear-gradient(180deg, #1F8AF0, #259CF4);
     background-image: linear-gradient(180deg, #1F8AF0, #51B0F6);

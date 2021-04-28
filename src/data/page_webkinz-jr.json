@@ -5,8 +5,9 @@
   "margin_bottom": "standard",
   "media": "webkinzjr/Webkinz_03.jpg",
   "url": "",
-  "content": "alt",
-  "caption": ""
+  "content": "A Webkinz Jr. Activity",
+  "caption": "",
+  "columns": ""
   },
   {
   "type": "paragraph",
@@ -15,7 +16,8 @@
   "media": "",
   "url": "",
   "content": "Webkinz Jr.is a series of plush animals that had a playable online counterpart. Kids age 3-6 could \"adopt\" their plush pet online, and feed, bathe, and play with their pet using an online portal featuring a variety of simple educational activities.",
-  "caption": ""
+  "caption": "",
+  "columns": ""
   },
   {
   "type": "paragraph",
@@ -24,7 +26,8 @@
   "media": "",
   "url": "",
   "content": "One of my long term projects on the Webkinz Jr. team was working on a series of \"classroom\" activities. Every month, a different theme including a dictated poem was introduced, for which I created the graphics. Upcoming themes were communicated to me in creative briefs written by our writers of pedagogical backgrounds.",
-  "caption": ""
+  "caption": "",
+  "columns": ""
   },
   {
   "type": "paragraph",
@@ -33,7 +36,8 @@
   "media": "",
   "url": "",
   "content": "The graphics for the activity itself were a monthly \"re-skin\". The functionality stayed the same (alternating between sorting objects, and choosing objects based on questions from the \"teacher\", the rabbit shown here), while the selectable objects and backgrounds changed. I formatted the assets to certain specifications and scheduled them for publication using a back end CMS.",
-  "caption": ""
+  "caption": "",
+  "columns": ""
   },
   {
   "type": "paragraph",
@@ -42,7 +46,8 @@
   "media": "",
   "url": "",
   "content": "My main learning takeaways from this were the importance of maintaining congruity with the rest of a complex web space, including approved colour palettes and styles. Our Agile Scrum workflow made it easy to coordinate our efforts with the creative team, QA and developers to ensure the success of major updates.",
-  "caption": ""
+  "caption": "",
+  "columns": ""
   },
   {
   "type": "paragraph",
@@ -51,285 +56,47 @@
   "media": "",
   "url": "",
   "content": "Here are several examples of my artwork for the sorting activity.",
-  "caption": ""
+  "caption": "",
+  "columns": ""
   },
   {
-  "type": "image",
+  "type": "image-grid",
   "id": "700",
   "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_04.jpg",
+  "media": ["webkinzjr/Webkinz_04.jpg", "webkinzjr/Webkinz_01.jpg", "webkinzjr/Webkinz_02.jpg", "webkinzjr/Webkinz_03.jpg" , "webkinzjr/Webkinz_14.jpg" , "webkinzjr/Webkinz_15.jpg" , "webkinzjr/Webkinz_16.jpg" , "webkinzjr/Webkinz_17.jpg" , "webkinzjr/Webkinz_19.jpg" , "webkinzjr/Webkinz_21.jpg" , "webkinzjr/Webkinz_22.jpg" , "webkinzjr/Webkinz_23.jpg" , "webkinzjr/Webkinz_25.jpg" , "webkinzjr/Webkinz_26.jpg" , "webkinzjr/Webkinz_27.jpg" , "webkinzjr/Webkinz_28.jpg"],
   "url": "",
   "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "800",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_01.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "900",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_02.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1000",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_03.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1100",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_14.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1200",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_15.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1300",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_16.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1400",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_17.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1500",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_19.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1600",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_21.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1700",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_22.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1800",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_23.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "1900",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_25.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "2000",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_26.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "2100",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_27.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "2200",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_28.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
+  "caption": "",
+  "columns": 2
   },
   {
   "type": "h3",
-  "id": "2300",
+  "id": "800",
   "margin_bottom": "standard",
   "media": "",
   "url": "",
   "content": "Other Areas",
-  "caption": ""
+  "caption": "",
+  "columns": ""
   },
   {
   "type": "paragraph",
-  "id": "2400",
+  "id": "900",
   "margin_bottom": "standard",
   "media": "",
   "url": "",
   "content": "I also worked on other sections of Webkinz Jr., including a doctor's clinic where a pet could get a checkup, a \"Helper Award\" certificate and badges, bathing activity, and more.",
-  "caption": ""
+  "caption": "",
+  "columns": ""
   },
   {
-  "type": "image",
-  "id": "2500",
+  "type": "image-grid",
+  "id": "1000",
   "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_06.jpg",
+  "media": ["webkinzjr/Webkinz_06.jpg", "webkinzjr/Webkinz_07.jpg", "webkinzjr/Webkinz_08.jpg", "webkinzjr/Webkinz_09.jpg" , "webkinzjr/Webkinz_10.jpg" , "webkinzjr/Webkinz_11.jpg" , "webkinzjr/Webkinz_12.jpg" , "webkinzjr/Webkinz_13.jpg" , "webkinzjr/Webkinz_18.jpg" , "webkinzjr/Webkinz_20.jpg" , "webkinzjr/Webkinz_24.jpg" , "webkinzjr/Webkinz_29.jpg" , "webkinzjr/Webkinz_30.jpg"],
   "url": "",
   "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "2600",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_07.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "2700",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_08.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "2800",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_09.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "2900",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_10.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "3000",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_01.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "3100",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_02.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "3200",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_13.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "3300",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_18.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "3400",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_20.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "3500",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_24.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "3600",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_29.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
-  },
-  {
-  "type": "image",
-  "id": "3700",
-  "margin_bottom": "standard",
-  "media": "webkinzjr/Webkinz_30.jpg",
-  "url": "",
-  "content": "A Webkinz Jr. Activity",
-  "caption": ""
+  "caption": "",
+  "columns": 2
   }
   ]

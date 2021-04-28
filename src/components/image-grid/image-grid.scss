@@ -1,0 +1,36 @@
+@import '../../Styles/Mixins';
+@import '../../Styles/Partials';
+@import '../../Styles/Variables';
+
+
+.image-grid {
+
+  margin: 30px 0;
+
+  @include tablet {
+    display: grid;
+  }
+
+  &__2-columns {
+    @include tablet {
+      grid-template-columns: 1fr 1fr;
+      gap: 14px 14px;
+    }
+  }
+
+  &__3-columns {
+    @include tablet {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px 14px;
+    }
+  }
+  
+  &__4-columns {
+    @include tablet {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 14px 14px;
+    }
+  }
+
+
+}
