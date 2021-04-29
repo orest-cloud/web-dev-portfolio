@@ -6,29 +6,31 @@
 .image-grid {
 
   margin: 30px 0;
-
-  @include tablet {
-    display: grid;
-  }
+  gap: 14px 14px;
+  display: grid;
 
   &__2-columns {
+    grid-template-columns: 1fr;
+
     @include tablet {
       grid-template-columns: 1fr 1fr;
-      gap: 14px 14px;
+      
     }
   }
 
   &__3-columns {
+    grid-template-columns: 1fr;
+
     @include tablet {
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 14px 14px;
     }
   }
-  
+
   &__4-columns {
+    grid-template-columns: 1fr;
+
     @include tablet {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 14px 14px;
     }
   }
 
