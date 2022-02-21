@@ -33,7 +33,7 @@ export default function Home() {
 
         <div className="home-bio__text-container">
           <p className="home-bio__text">
-          Hi, my name is Orest. I'm a Web Developer and experienced tech industry professional accustomed to working within an Agile Scrum workflow, with skills accumulated working on UI for eCommerce websites and educational platforms. My habit has always been to centralize components, make them versatile and re-usable, and studiously package assets for hand-off.
+          Hi, my name is Orest. I'm a Web Developer and experienced tech industry professional accustomed to working within an Agile Scrum workflow. With skills accumulated working on UI for eCommerce websites and educational platforms, my habit has always been to centralize components, make them versatile and re-usable, and studiously package assets for hand-off.
           </p><p className="home-bio__text">
           My love of new challenges and creating rich web experiences has led me to transition from Digital Design to Web Development. In February 2021, I earned a diploma in Web Development from tech college BrainStation's bootcamp with a cumulative grade of 89%.
           </p><p className="home-bio__text">

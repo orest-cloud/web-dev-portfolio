@@ -5,7 +5,7 @@
   "heading": "Stomping Ground, a React app",
   "sub_heading": "Investigate neighborhoods and property listings",
   "image": "project_stomping-ground.png",
-  "tools": ["React", "Express.js", "Illustrator"],
+  "tools": ["React", "Express.js", "Adobe XD"],
   "libraries": "Axios, CORS, Nodemon, UUID"
   },
   {
@@ -23,7 +23,7 @@
   "heading": "Canadian Insulin Re-Design",
   "sub_heading": "A complete e-commerce UI overhaul",
   "image": "project_cdi.png",
-  "tools": ["Experience Design", "Illustrator", "Photoshop"],
+  "tools": ["InVision", "Illustrator", "Photoshop"],
   "libraries": ""
   },
   {

@@ -92,7 +92,16 @@
   }
   
   &__text-with-link {
-    margin-bottom: 20px;
+
+    // Margins in the case of 'standard'
+    &--standard {
+      margin-bottom: 20px;
+    }
+
+    // Margins in the case of 'top-only'
+    &--top-only {
+      margin-top: 20px;
+    }
   }
 }
 

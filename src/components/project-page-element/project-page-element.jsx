@@ -17,11 +17,13 @@ import './project-page-element.scss';
 // const hljs = require('highlight.js/lib/core');
 // hljs.registerLanguage('javascript', require('highlight.js/lib/languages/xml'));
 
-export default function ProjectPageElement({ type, media, url, content, caption, columns }) {
+export default function ProjectPageElement({ type, media, url, content, caption, columns, margin_bottom }) {
   const [codeContent, setCodeContent] = useState("");
 
   let captionElement = null;
   let renderElement = null;
+  // Controls the margins (e.g. "standard" margins, or "top-only")
+  let marginClass = "standard";
 
   // Include the caption, if there is one (for image elements)
   if (caption) {
@@ -98,7 +100,14 @@ export default function ProjectPageElement({ type, media, url, content, caption,
     renderElement = <PhoneScroll media={media} title={content} caption={caption} />;
   }  
   else if (type === "text-with-link") {
-    renderElement = <div className="project-page-element__text-with-link"><p className="project-page-element__paragraph"><b>
+
+    if (margin_bottom === "top-only") {
+      marginClass = "top-only";
+    } else {
+      marginClass = "standard";
+    }
+
+    renderElement = <div className={`project-page-element__text-with-link--${marginClass}`}><p className="project-page-element__paragraph"><b>
     {content} <a href={url} rel="noreferrer" target="_blank" className="project-page-element__text-link">{url}</a>
   </b></p></div>;
   }
