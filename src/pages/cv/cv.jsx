@@ -8,7 +8,8 @@ import Footer from '../../components/footer/footer';
 
 // Images 
 import pdfIcon from '../../assets/icons/pdf.svg';
-import {ReactComponent as PdfImage} from '../../assets/images/cv_image.svg';
+// import {ReactComponent as PdfImage} from '../../assets/images/cv_image.svg';
+import PdfImage from '../../assets/images/cv_image.png';
 
 // Styles 
 import './cv.scss';
@@ -32,7 +33,7 @@ export default class CV extends React.Component {
 
             <a href="/assets/pdfs/OrestSzopiak_CV.pdf" target="_blank" className="cv__link"><img src={pdfIcon} alt="PDF download" className="cv__icon"/>View / Download PDF (73kb)</a>
 
-            <PdfImage className="cv__image" />
+            <img className="cv__image" src={PdfImage} alt="CV preview" />
             
           </div>
         </section>
