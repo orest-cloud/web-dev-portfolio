@@ -1,146 +1,19 @@
 [
-  {
-    "type": "h2",
-    "id": 100,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "About Me",
-    "caption": ""
-  },
-  {
-    "type": "hr",
-    "id": 200,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "",
-    "caption": ""
-  },
-  {
-    "type": "h3",
-    "id": 300,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Work History",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 400,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "In 2008 I graduated from Ryerson University with a degree in New Media. The program focused on concepts connected with emerging technologies and practical training in HTML/CSS, as well as circuit building, and media software After Effects, Final Cut Pro, and others.",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 700,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "My final New Media project was a trucking themed game styled after early graphical adventure games. The project was featured in Ryerson's Nuit Blanche showcase of 2007.",
-    "caption": ""
-  },
-  {
-    "type": "image_with_text",
-    "id": 800,
-    "margin_bottom": "standard",
-    "media": "webkinz_jr_ny.jpg",
-    "url": "",
-    "content": "My first role in the tech industry was with Webkinz (a division of Ganz Studios) in 2008, at the time a leader in the world of online family entertainment, which gave me an invaluable foundation for working in tech: Participating in Scrums; using a version controlled repository; coordinating with multiple departments (Creative writers, devs, QA, and artists) to produce interactive content; adhering to strict specifications when delivering assets. At the time, I was coding in ActionScript, the programming language of Flash.",
-    "caption": "My UI design of a Webkinz Jr. Online activity, as seen in The New York Times, May 2009."
-  },
-  {
-    "type": "paragraph",
-    "id": 900,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "My next full time role was with ELL Technologies, an english language-learning software producer, which provided the chance to contribute in the world of education design.",
-    "caption": ""
-  },
-  {
-    "type": "image_with_text_reverse",
-    "id": 1000,
-    "margin_bottom": "standard",
-    "media": "CDI_video_slide_desktop.png",
-    "url": "",
-    "content": "At fast-paced marketing agency Inter-Web, I took a central role in designing, prototyping and writing spec documents for several eCommerce websites. I created art concepts and coded landing pages and e-newsletters. It was largely the positive experiences coding for web which led me to embark on a career based on working with front-end technology.",
-    "caption": "During my time at a marketing agency, I re-designed e-commerce websites, including Canadian Insulin, shown here."
-  },
-  {
-    "type": "h3",
-    "id": 1100,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Personal Interests",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 1200,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "In my spare time, I enjoy digging up facts and personal accounts about the history of computer technology, software and games. I'm an avid reader, and I play badminton and tennis.",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 1300,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "I volunteer with an organization called Destination Imagination, which facilitates extracurricular creative and engineering challenges for children and high-school students.",
-    "caption": ""
-  },
-  {
-    "type": "h3",
-    "id": 1400,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Education",
-    "caption": ""
-  },
-  {
-    "type": "h4",
-    "id": 1500,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "BrainStation - Web Development Diploma",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 1600,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Three month diploma program intensive in Front End technologies, including React, SASS, command line Git, accessibility, OAuth, MySQL, as well as server side JavaScript, Model-view-controller software design pattern, and computer networking fundamentals.",
-    "caption": ""
-  },
-  {
-    "type": "h4",
-    "id": 1700,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Ryerson University - New Media, BFA",
-    "caption": ""
-  },
-  {
-    "type": "paragraph",
-    "id": 1800,
-    "margin_bottom": "standard",
-    "media": "",
-    "url": "",
-    "content": "Training in the Principles and history of Design, circuit building, HTML/CSS, and  multimedia software including After Effects, Final Cut Pro, and PhotoShop. Additionally, concepts and theories relating to emerging technology, culture, and art.",
-    "caption": ""
-  }
- ]
+{"type":"h2","id":"100","margin_bottom":"standard","media":"","url":"","content":"About Me","caption":""},
+{"type":"hr","id":"200","margin_bottom":"standard","media":"","url":"","content":"","caption":""},
+{"type":"h3","id":"300","margin_bottom":"standard","media":"","url":"","content":"Work History","caption":""},
+{"type":"paragraph","id":"400","margin_bottom":"standard","media":"","url":"","content":"In 2008 I graduated from Ryerson University with a degree in New Media. The program focused on concepts connected with emerging technologies and practical training in HTML/CSS, as well as circuit building, and media software After Effects, Final Cut Pro, and others.","caption":""},
+{"type":"paragraph","id":"700","margin_bottom":"standard","media":"","url":"","content":"My final New Media project was game styled after early graphical adventure games. The project was featured in Ryerson's Nuit Blanche showcase of 2007.","caption":""},
+{"type":"image_with_text","id":"800","margin_bottom":"standard","media":"webkinz_jr_ny.jpg","url":"","content":"My first role in the tech industry was with Webkinz (a division of Ganz Studios) in 2008, at the time a leader in the world of online family entertainment, which gave me an invaluable foundation for working in tech: Participating in Scrums; using a version controlled repository; coordinating with multiple departments (Creative writers, devs, QA, and artists) to produce interactive content; adhering to strict specifications when delivering assets. At the time, I was coding in ActionScript, the programming language of Flash.","caption":"My UI design of a Webkinz Jr. Online activity, as seen in The New York Times, May 2009."},
+{"type":"paragraph","id":"900","margin_bottom":"standard","media":"","url":"","content":"My next full time role was with ELL Technologies, an English language-learning software producer, which provided the chance to contribute in the world of education design.","caption":""},
+{"type":"image_with_text_reverse","id":"1000","margin_bottom":"standard","media":"CDI_video_slide_desktop.png","url":"","content":"At fast-paced marketing agency Inter-Web, I took a central role in designing, prototyping and writing spec documents for several eCommerce websites. I created art concepts and coded landing pages and e-newsletters. It was largely the positive experiences coding for web which led me to embark on a career based on working with front-end technology.","caption":"During my time at a marketing agency, I re-designed e-commerce websites, including Canadian Insulin, shown here."},
+{"type":"image_with_text","id":"1075","margin_bottom":"standard","media":"wolverine_gold-cup.png","url":"","content":"In my current role as Web Designer at Wolverine Worldwide, I design pages and UI elements aligning with marketing campaigns and raising awareness of philanthropic campaigns for a variety of popular retail brands: Keds, Hush Puppies, Merrell, Saucony, Sperry, and Wolverine. I also design for email marketing.","caption":"My mockup of some menu items on the Sperry homepage. The image at left is actually a composite of several photos."},
+{"type":"h3","id":"1100","margin_bottom":"standard","media":"","url":"","content":"Personal Interests","caption":""},
+{"type":"paragraph","id":"1200","margin_bottom":"standard","media":"","url":"","content":"In my spare time, I enjoy digging up facts and personal accounts about the history of computer technology, software and games. I'm an avid reader, and I play badminton and tennis.","caption":""},
+{"type":"paragraph","id":"1300","margin_bottom":"standard","media":"","url":"","content":"I volunteer with an organization called Destination Imagination, which facilitates extracurricular creative and engineering challenges for children and high-school students.","caption":""},
+{"type":"h3","id":"1400","margin_bottom":"standard","media":"","url":"","content":"Education","caption":""},
+{"type":"h4","id":"1500","margin_bottom":"standard","media":"","url":"","content":"BrainStation - Web Development Diploma","caption":""},
+{"type":"paragraph","id":"1600","margin_bottom":"standard","media":"","url":"","content":"Three month diploma program intensive in Front End technologies, including React, SASS, command line Git, accessibility, OAuth, MySQL, as well as server side JavaScript, Model-view-controller software design pattern, and computer networking fundamentals.","caption":""},
+{"type":"h4","id":"1700","margin_bottom":"standard","media":"","url":"","content":"Ryerson University - New Media, BFA","caption":""},
+{"type":"paragraph","id":"1800","margin_bottom":"standard","media":"","url":"","content":"Training in the Principles and history of Design, circuit building, HTML/CSS, and  multimedia software including After Effects, Final Cut Pro, and PhotoShop. Additionally, concepts and theories relating to emerging technology, culture, and art.","caption":""}
+]
